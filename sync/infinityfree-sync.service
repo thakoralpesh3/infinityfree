@@ -1,0 +1,15 @@
+[Unit]
+Description=InfinityFree Agent and Antigravity Conversation Auto-Sync Daemon
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/alpesh/infinityfree
+ExecStart=/usr/bin/python3 /home/alpesh/infinityfree/sync/sync_daemon.py --interval 30
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

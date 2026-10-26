@@ -1,0 +1,234 @@
+[
+  {
+    "id": "anime4all-portal",
+    "domain": "anime4all.epizy.com",
+    "url": "http://anime4all.epizy.com",
+    "ssl_url": "https://anime4all.epizy.com",
+    "account_id": "default",
+    "target_dir": "htdocs",
+    "status": "configured",
+    "project": "Web2APK Anime Streaming App",
+    "github_repo": "thakoralpesh3/web-to-apk-autonomous-agent",
+    "work_type": "apk_distribution",
+    "description": "Responsive download portal for Anime4All streaming application across Mobile and Android TV.",
+    "hosted_apks": [
+      {
+        "filename": "Anime4All-v1.0.0-universal.apk",
+        "app_name": "Anime4All",
+        "version": "1.0.0",
+        "device_target": "Universal",
+        "size_kb": 218.4,
+        "download_path": "apk/Anime4All-v1.0.0-universal.apk"
+      },
+      {
+        "filename": "Anime4All-v1.0.0-android-tv.apk",
+        "app_name": "Anime4All",
+        "version": "1.0.0",
+        "device_target": "Android TV",
+        "size_kb": 218.4,
+        "download_path": "apk/Anime4All-v1.0.0-android-tv.apk"
+      },
+      {
+        "filename": "Anime4All-v1.0.0-smartphone.apk",
+        "app_name": "Anime4All",
+        "version": "1.0.0",
+        "device_target": "Smartphone",
+        "size_kb": 218.3,
+        "download_path": "apk/Anime4All-v1.0.0-smartphone.apk"
+      }
+    ],
+    "last_synced": "2026-10-26T21:05:51.676992"
+  },
+  {
+    "id": "cinema-moviebox",
+    "domain": "cinemamoviebox.epizy.com",
+    "url": "http://cinemamoviebox.epizy.com",
+    "ssl_url": "https://cinemamoviebox.epizy.com",
+    "account_id": "default",
+    "target_dir": "htdocs",
+    "status": "configured",
+    "project": "Cinema MovieBox Media Center",
+    "github_repo": "thakoralpesh3/web-to-apk-autonomous-agent",
+    "work_type": "apk_distribution",
+    "description": "Cinema and Movie streaming portal with dedicated Android TV and Smartphone APK downloads.",
+    "hosted_apks": [
+      {
+        "filename": "Cinema_MovieBox-v1.0.0-converted-universal.apk",
+        "app_name": "Cinema Moviebox",
+        "version": "1.0.0",
+        "device_target": "Universal",
+        "size_kb": 250.3,
+        "download_path": "apk/Cinema_MovieBox-v1.0.0-converted-universal.apk"
+      },
+      {
+        "filename": "Cinema_MovieBox-v1.0.0-smartphone.apk",
+        "app_name": "Cinema Moviebox",
+        "version": "1.0.0",
+        "device_target": "Smartphone",
+        "size_kb": 178.3,
+        "download_path": "apk/Cinema_MovieBox-v1.0.0-smartphone.apk"
+      },
+      {
+        "filename": "Cinema_MovieBox-v1.0.0-android-tv.apk",
+        "app_name": "Cinema Moviebox",
+        "version": "1.0.0",
+        "device_target": "Android TV",
+        "size_kb": 202.3,
+        "download_path": "apk/Cinema_MovieBox-v1.0.0-android-tv.apk"
+      },
+      {
+        "filename": "Cinema_MovieBox-v1.0.0-universal.apk",
+        "app_name": "Cinema Moviebox",
+        "version": "1.0.0",
+        "device_target": "Universal",
+        "size_kb": 202.3,
+        "download_path": "apk/Cinema_MovieBox-v1.0.0-universal.apk"
+      }
+    ],
+    "last_synced": "2026-10-26T21:05:51.683480"
+  },
+  {
+    "id": "tv-mouse-suite",
+    "domain": "tvmouse.epizy.com",
+    "url": "http://tvmouse.epizy.com",
+    "ssl_url": "https://tvmouse.epizy.com",
+    "account_id": "default",
+    "target_dir": "htdocs",
+    "status": "configured",
+    "project": "TV Mouse Navigation & Leanback Suite",
+    "github_repo": "thakoralpesh3/apk-tv-converter-agent",
+    "work_type": "apk_distribution",
+    "description": "Android TV virtual mouse & D-pad pointer utility APK distribution portal.",
+    "hosted_apks": [
+      {
+        "filename": "TV_Mouse_Suite-v1.0.0-android-tv.apk",
+        "app_name": "TV Mouse Suite",
+        "version": "1.0.0",
+        "device_target": "Android TV",
+        "size_kb": 194,
+        "download_path": "apk/TV_Mouse_Suite-v1.0.0-android-tv.apk"
+      }
+    ],
+    "last_synced": "2026-10-26T21:00:00"
+  },
+  {
+    "id": "openworld4all",
+    "domain": "openworld.epizy.com",
+    "url": "http://openworld.epizy.com",
+    "ssl_url": "https://openworld.epizy.com",
+    "account_id": "default",
+    "target_dir": "htdocs",
+    "status": "configured",
+    "project": "Openworld4All Suite",
+    "github_repo": "thakoralpesh3/web-to-apk-autonomous-agent",
+    "work_type": "apk_distribution",
+    "description": "Openworld4All cross-platform suite and converted Android TV edition.",
+    "hosted_apks": [
+      {
+        "filename": "Openworld4All-converted-tv.apk",
+        "app_name": "Openworld4All",
+        "version": "1.0.0",
+        "device_target": "Android TV",
+        "size_kb": 326.5,
+        "download_path": "apk/Openworld4All-converted-tv.apk"
+      },
+      {
+        "filename": "Openworld4All-v1.1.0-smartphone.apk",
+        "app_name": "Openworld4All",
+        "version": "1.1.0",
+        "device_target": "Smartphone",
+        "size_kb": 234.3,
+        "download_path": "apk/Openworld4All-v1.1.0-smartphone.apk"
+      },
+      {
+        "filename": "Openworld4All-v1.0.0-smartphone.apk",
+        "app_name": "Openworld4All",
+        "version": "1.0.0",
+        "device_target": "Smartphone",
+        "size_kb": 222.3,
+        "download_path": "apk/Openworld4All-v1.0.0-smartphone.apk"
+      },
+      {
+        "filename": "Openworld4All-v1.0.0-android-tv.apk",
+        "app_name": "Openworld4All",
+        "version": "1.0.0",
+        "device_target": "Android TV",
+        "size_kb": 226.4,
+        "download_path": "apk/Openworld4All-v1.0.0-android-tv.apk"
+      },
+      {
+        "filename": "Openworld4All-v1.0.0-universal.apk",
+        "app_name": "Openworld4All",
+        "version": "1.0.0",
+        "device_target": "Universal",
+        "size_kb": 226.4,
+        "download_path": "apk/Openworld4All-v1.0.0-universal.apk"
+      }
+    ],
+    "last_synced": "2026-10-26T21:05:51.693045"
+  },
+  {
+    "id": "cyberarcade-epizy-com",
+    "domain": "cyberarcade.epizy.com",
+    "url": "http://cyberarcade.epizy.com",
+    "ssl_url": "https://cyberarcade.epizy.com",
+    "account_id": "default",
+    "target_dir": "htdocs",
+    "status": "configured",
+    "project": "Cyber Arcade Gaming Suite",
+    "github_repo": "thakoralpesh3/web-to-apk-autonomous-agent",
+    "work_type": "apk_distribution",
+    "description": "High performance arcade gaming apps for Android and Android TV.",
+    "hosted_apks": [
+      {
+        "filename": "Cyber_Arcade_Universal-v1.0.0-universal.apk",
+        "app_name": "Cyber Arcade",
+        "version": "1.0.0",
+        "device_target": "Universal",
+        "size_kb": 292.0,
+        "download_path": "apk/Cyber_Arcade_Universal-v1.0.0-universal.apk"
+      }
+    ],
+    "last_synced": "2026-10-26T21:05:51.685192"
+  },
+  {
+    "id": "retrostream-epizy-com",
+    "domain": "retrostream.epizy.com",
+    "url": "http://retrostream.epizy.com",
+    "ssl_url": "https://retrostream.epizy.com",
+    "account_id": "default",
+    "target_dir": "htdocs",
+    "status": "configured",
+    "project": "RetroStream Media",
+    "github_repo": "thakoralpesh3/web-to-apk-autonomous-agent",
+    "work_type": "apk_distribution",
+    "description": "Retro entertainment and media streaming apps for Android TV and mobile.",
+    "hosted_apks": [
+      {
+        "filename": "Retrostream-v1.0.0-universal.apk",
+        "app_name": "Retrostream",
+        "version": "1.0.0",
+        "device_target": "Universal",
+        "size_kb": 246.3,
+        "download_path": "apk/Retrostream-v1.0.0-universal.apk"
+      },
+      {
+        "filename": "Retrostream-v1.0.0-smartphone.apk",
+        "app_name": "Retrostream",
+        "version": "1.0.0",
+        "device_target": "Smartphone",
+        "size_kb": 270.3,
+        "download_path": "apk/Retrostream-v1.0.0-smartphone.apk"
+      },
+      {
+        "filename": "Retrostream-v1.0.0-android-tv.apk",
+        "app_name": "Retrostream",
+        "version": "1.0.0",
+        "device_target": "Android TV",
+        "size_kb": 274.4,
+        "download_path": "apk/Retrostream-v1.0.0-android-tv.apk"
+      }
+    ],
+    "last_synced": "2026-10-26T21:05:51.696586"
+  }
+]
