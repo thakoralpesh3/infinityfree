@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Secrets & Environment
+.env
+*.pem
+*.key
+credentials.json
+account_secrets.json
+
+# Local system caches & logs
+*.log
+.DS_Store
+Thumbs.db
+.cache/
+.pytest_cache/
+
+# Temporary upload staging
+staging/
+tmp/
