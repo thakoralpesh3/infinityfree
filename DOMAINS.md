@@ -2,7 +2,7 @@
 
 > Real-time showcase of all InfinityFree domains and subdomains managed autonomously, mapping each domain to its live web application, download portal, and hosted Android/TV APK releases.
 
-**Last Synchronized**: `2026-11-03 21:27:07` | **Total Domains**: `6` | **Total Hosted APKs**: `12`
+**Last Synchronized**: `2026-11-03 21:27:42` | **Total Domains**: `6` | **Total Hosted APKs**: `17`
 
 ---
 
@@ -15,7 +15,7 @@
 | **[tvmouse.epizy.com](http://tvmouse.epizy.com)** | [TV Mouse Navigation & Leanback Suite](https://github.com/thakoralpesh3/apk-tv-converter-agent) | Android TV | [`TV_Mouse_Suite-v1.0.0-android-tv.apk`](http://tvmouse.epizy.com/apk/TV_Mouse_Suite-v1.0.0-android-tv.apk) (194 KB) | ⚪ `configured` |
 | **[cyberarcade.epizy.com](http://cyberarcade.epizy.com)** | [Cyber Arcade Gaming Suite](https://github.com/thakoralpesh3/web-to-apk-autonomous-agent) | Universal | [`Cyber_Arcade_Universal-v1.0.0-universal.apk`](http://cyberarcade.epizy.com/apk/Cyber_Arcade_Universal-v1.0.0-universal.apk) (292.0 KB) | ⚪ `configured` |
 | **[retrostream.epizy.com](http://retrostream.epizy.com)** | [RetroStream Media](https://github.com/thakoralpesh3/web-to-apk-autonomous-agent) | Android TV, Smartphone, Universal | [`Retrostream-v1.0.0-universal.apk`](http://retrostream.epizy.com/apk/Retrostream-v1.0.0-universal.apk) (246.3 KB)<br>[`Retrostream-v1.0.0-smartphone.apk`](http://retrostream.epizy.com/apk/Retrostream-v1.0.0-smartphone.apk) (270.3 KB)<br>[`Retrostream-v1.0.0-android-tv.apk`](http://retrostream.epizy.com/apk/Retrostream-v1.0.0-android-tv.apk) (274.4 KB) | ⚪ `configured` |
-| **[openworld4all.gt.tc](http://openworld4all.gt.tc)** | [Openworld4All (tc.gt.openworld4all)](https://github.com/thakoralpesh3/infinityfree) | Web / Static | *No APKs registered* | ⚪ `active` |
+| **[openworld4all.gt.tc](http://openworld4all.gt.tc)** | [Openworld4All (tc.gt.openworld4all)](https://github.com/thakoralpesh3/infinityfree) | Android TV, Smartphone, Universal | [`Openworld4All-v1.0.0-smartphone.apk`](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-smartphone.apk) (222.3 KB)<br>[`Openworld4All-v1.1.0-smartphone.apk`](http://openworld4all.gt.tc/apk/Openworld4All-v1.1.0-smartphone.apk) (234.3 KB)<br>[`Openworld4All-v1.0.0-android-tv.apk`](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-android-tv.apk) (226.4 KB)<br>[`Openworld4All-v1.0.0-universal.apk`](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-universal.apk) (226.4 KB)<br>[`Openworld4All-converted-tv.apk`](http://openworld4all.gt.tc/apk/Openworld4All-converted-tv.apk) (326.5 KB) | ⚪ `active` |
 
 ---
 
@@ -96,7 +96,13 @@
 
 **Hosted APK Distribution:**
 
-*No APK releases deployed yet.*
+| APK File | App Name | Version | Target Device | Direct Download |
+| :--- | :--- | :--- | :--- | :--- |
+| `Openworld4All-v1.0.0-smartphone.apk` | **Openworld4All** | `v1.0.0` | Smartphone | [⬇️ Download APK](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-smartphone.apk) |
+| `Openworld4All-v1.1.0-smartphone.apk` | **Openworld4All** | `v1.1.0` | Smartphone | [⬇️ Download APK](http://openworld4all.gt.tc/apk/Openworld4All-v1.1.0-smartphone.apk) |
+| `Openworld4All-v1.0.0-android-tv.apk` | **Openworld4All** | `v1.0.0` | Android TV | [⬇️ Download APK](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-android-tv.apk) |
+| `Openworld4All-v1.0.0-universal.apk` | **Openworld4All** | `v1.0.0` | Universal | [⬇️ Download APK](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-universal.apk) |
+| `Openworld4All-converted-tv.apk` | **Openworld4All** | `v1.0.0` | Android TV | [⬇️ Download APK](http://openworld4all.gt.tc/apk/Openworld4All-converted-tv.apk) |
 
 ---
 

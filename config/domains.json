@@ -187,7 +187,53 @@
     "github_repo": "thakoralpesh3/infinityfree",
     "work_type": "apk_distribution",
     "description": "Experience smooth big-screen navigation with active TV remote marker focus.",
-    "hosted_apks": [],
-    "last_synced": "2026-11-03T21:26:41.453246"
+    "hosted_apks": [
+      {
+        "filename": "Openworld4All-v1.0.0-smartphone.apk",
+        "app_name": "Openworld4All",
+        "version": "1.0.0",
+        "device_target": "Smartphone",
+        "size_kb": 222.3,
+        "download_path": "apk/Openworld4All-v1.0.0-smartphone.apk",
+        "github_url": "https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-v1.0.0-smartphone.apk"
+      },
+      {
+        "filename": "Openworld4All-v1.1.0-smartphone.apk",
+        "app_name": "Openworld4All",
+        "version": "1.1.0",
+        "device_target": "Smartphone",
+        "size_kb": 234.3,
+        "download_path": "apk/Openworld4All-v1.1.0-smartphone.apk",
+        "github_url": "https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-v1.1.0-smartphone.apk"
+      },
+      {
+        "filename": "Openworld4All-v1.0.0-android-tv.apk",
+        "app_name": "Openworld4All",
+        "version": "1.0.0",
+        "device_target": "Android TV",
+        "size_kb": 226.4,
+        "download_path": "apk/Openworld4All-v1.0.0-android-tv.apk",
+        "github_url": "https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-v1.0.0-android-tv.apk"
+      },
+      {
+        "filename": "Openworld4All-v1.0.0-universal.apk",
+        "app_name": "Openworld4All",
+        "version": "1.0.0",
+        "device_target": "Universal",
+        "size_kb": 226.4,
+        "download_path": "apk/Openworld4All-v1.0.0-universal.apk",
+        "github_url": "https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-v1.0.0-universal.apk"
+      },
+      {
+        "filename": "Openworld4All-converted-tv.apk",
+        "app_name": "Openworld4All",
+        "version": "1.0.0",
+        "device_target": "Android TV",
+        "size_kb": 326.5,
+        "download_path": "apk/Openworld4All-converted-tv.apk",
+        "github_url": "https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-converted-tv.apk"
+      }
+    ],
+    "last_synced": "2026-11-03T21:27:29.814905"
   }
 ]
