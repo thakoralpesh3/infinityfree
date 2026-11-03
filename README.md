@@ -91,28 +91,32 @@ Key variables:
 ./infinityfree_agent.sh scan-apks --link
 ```
 
-### 5. Add a New Domain or Subdomain
+### 5. Auto-Sync Domain & Upload APKs to GitHub
+Automatically introspects the website purpose from companion store listings, matches stored APKs, uploads them directly to GitHub Releases, and creates the landing portal with QR codes and download links:
 ```bash
-./infinityfree_agent.sh add-domain myapp.epizy.com \
-  --project "My New App" \
-  --repo "thakoralpesh3/web-to-apk-autonomous-agent" \
-  --description "Download portal for My New App"
+./infinityfree_agent.sh sync-domain openworld4all.gt.tc
 ```
 
-### 6. Build Local Landing Portal
+### 6. Upload All Discovered APKs to GitHub Releases
+Uploads all APKs found across catalog domains to GitHub Releases for fast CDN distribution:
 ```bash
-./infinityfree_agent.sh build-portal anime4all.epizy.com
+./infinityfree_agent.sh upload-github-apks
 ```
 
-### 7. Run Live Health Check
+### 7. Build Local Landing Portal
+```bash
+./infinityfree_agent.sh build-portal openworld4all.gt.tc
+```
+
+### 8. Run Live Health Check
 ```bash
 ./infinityfree_agent.sh health-check --sync
 ```
 
-### 8. Deploy to InfinityFree Host
-Uploads `.htaccess`, generated landing page, and APK files directly to InfinityFree:
+### 9. Deploy to InfinityFree Host
+Uploads `.htaccess`, generated landing page, and APK files directly to InfinityFree via FTP:
 ```bash
-./infinityfree_agent.sh deploy anime4all.epizy.com --upload-apks
+./infinityfree_agent.sh deploy openworld4all.gt.tc
 ```
 
 ---
