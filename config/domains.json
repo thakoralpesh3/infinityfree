@@ -112,62 +112,6 @@
     "last_synced": "2026-10-26T21:00:00"
   },
   {
-    "id": "openworld4all",
-    "domain": "openworld.epizy.com",
-    "url": "http://openworld.epizy.com",
-    "ssl_url": "https://openworld.epizy.com",
-    "account_id": "default",
-    "target_dir": "htdocs",
-    "status": "configured",
-    "project": "Openworld4All Suite",
-    "github_repo": "thakoralpesh3/web-to-apk-autonomous-agent",
-    "work_type": "apk_distribution",
-    "description": "Openworld4All cross-platform suite and converted Android TV edition.",
-    "hosted_apks": [
-      {
-        "filename": "Openworld4All-converted-tv.apk",
-        "app_name": "Openworld4All",
-        "version": "1.0.0",
-        "device_target": "Android TV",
-        "size_kb": 326.5,
-        "download_path": "apk/Openworld4All-converted-tv.apk"
-      },
-      {
-        "filename": "Openworld4All-v1.1.0-smartphone.apk",
-        "app_name": "Openworld4All",
-        "version": "1.1.0",
-        "device_target": "Smartphone",
-        "size_kb": 234.3,
-        "download_path": "apk/Openworld4All-v1.1.0-smartphone.apk"
-      },
-      {
-        "filename": "Openworld4All-v1.0.0-smartphone.apk",
-        "app_name": "Openworld4All",
-        "version": "1.0.0",
-        "device_target": "Smartphone",
-        "size_kb": 222.3,
-        "download_path": "apk/Openworld4All-v1.0.0-smartphone.apk"
-      },
-      {
-        "filename": "Openworld4All-v1.0.0-android-tv.apk",
-        "app_name": "Openworld4All",
-        "version": "1.0.0",
-        "device_target": "Android TV",
-        "size_kb": 226.4,
-        "download_path": "apk/Openworld4All-v1.0.0-android-tv.apk"
-      },
-      {
-        "filename": "Openworld4All-v1.0.0-universal.apk",
-        "app_name": "Openworld4All",
-        "version": "1.0.0",
-        "device_target": "Universal",
-        "size_kb": 226.4,
-        "download_path": "apk/Openworld4All-v1.0.0-universal.apk"
-      }
-    ],
-    "last_synced": "2026-10-26T21:05:51.693045"
-  },
-  {
     "id": "cyberarcade-epizy-com",
     "domain": "cyberarcade.epizy.com",
     "url": "http://cyberarcade.epizy.com",
@@ -230,5 +174,20 @@
       }
     ],
     "last_synced": "2026-10-26T21:05:51.696586"
+  },
+  {
+    "id": "openworld4all-gt-tc",
+    "domain": "openworld4all.gt.tc",
+    "url": "http://openworld4all.gt.tc",
+    "ssl_url": "https://openworld4all.gt.tc",
+    "account_id": "default",
+    "target_dir": "htdocs",
+    "status": "active",
+    "project": "Openworld4All (tc.gt.openworld4all)",
+    "github_repo": "thakoralpesh3/infinityfree",
+    "work_type": "apk_distribution",
+    "description": "Experience smooth big-screen navigation with active TV remote marker focus.",
+    "hosted_apks": [],
+    "last_synced": "2026-11-03T21:26:41.453246"
   }
 ]
