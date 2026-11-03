@@ -38,6 +38,8 @@ class MarkdownGenerator:
             status_label = h.get("status_label", d.get("status", "Active"))
             if "Online" in status_label:
                 badge = f"🟢 `{status_label}`"
+            elif "Domain Not In Account" in status_label:
+                badge = f"🔴 `{status_label}`"
             elif "Resolving" in status_label:
                 badge = f"🟡 `{status_label}`"
             else:
