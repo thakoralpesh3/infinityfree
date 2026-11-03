@@ -83,3 +83,32 @@ class APKScanner:
                 })
 
         return sorted(results, key=lambda x: x["app_name"])
+
+    def find_metadata_for_app(self, keyword: str) -> Dict[str, str]:
+        """Extracts purpose, tagline, highlights and package from companion store listings."""
+        clean_kw = keyword.lower().replace(".", "").replace("-", "").replace("_", "")
+        for d in self.dirs:
+            if not d.exists():
+                continue
+            for md_file in d.glob("*Store-Listing*.md"):
+                file_stem = md_file.stem.lower().replace(".", "").replace("-", "").replace("_", "")
+                if clean_kw in file_stem or any(clean_kw in part for part in file_stem.split()):
+                    try:
+                        content = md_file.read_text(encoding="utf-8")
+                        pkg_match = re.search(r"Package[:\*`\s]+([a-zA-Z0-9_\.]+)", content)
+                        tagline_match = re.search(r"##\s*Short Tagline\s*>\s*(.+)", content)
+                        highlights_match = re.findall(r"^-\s+(.+)$", content, re.MULTILINE)
+                        
+                        pkg = pkg_match.group(1).strip("`* ") if pkg_match else ""
+                        tagline = tagline_match.group(1).strip() if tagline_match else ""
+                        highlights = highlights_match[:4] if highlights_match else []
+
+                        return {
+                            "package": pkg,
+                            "tagline": tagline,
+                            "highlights": highlights,
+                            "source_file": md_file.name
+                        }
+                    except Exception:
+                        pass
+        return {}
