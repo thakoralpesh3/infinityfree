@@ -2,7 +2,7 @@
 
 > Real-time showcase of all InfinityFree domains and subdomains managed autonomously, mapping each domain to its live web application, download portal, and hosted Android/TV APK releases.
 
-**Last Synchronized**: `2026-11-03 22:49:22` | **Total Domains**: `6` | **Total Hosted APKs**: `17`
+**Last Synchronized**: `2026-11-03 22:52:13` | **Total Domains**: `6` | **Total Hosted APKs**: `17`
 
 ---
 
@@ -15,7 +15,7 @@
 | **[tvmouse.epizy.com](http://tvmouse.epizy.com)** | [TV Mouse Navigation & Leanback Suite](https://github.com/thakoralpesh3/apk-tv-converter-agent) | Android TV | [`TV_Mouse_Suite-v1.0.0-android-tv.apk`](http://tvmouse.epizy.com/apk/TV_Mouse_Suite-v1.0.0-android-tv.apk) (194 KB) | ⚪ `configured` |
 | **[cyberarcade.epizy.com](http://cyberarcade.epizy.com)** | [Cyber Arcade Gaming Suite](https://github.com/thakoralpesh3/web-to-apk-autonomous-agent) | Universal | [`Cyber_Arcade_Universal-v1.0.0-universal.apk`](http://cyberarcade.epizy.com/apk/Cyber_Arcade_Universal-v1.0.0-universal.apk) (292.0 KB) | ⚪ `configured` |
 | **[retrostream.epizy.com](http://retrostream.epizy.com)** | [RetroStream Media](https://github.com/thakoralpesh3/web-to-apk-autonomous-agent) | Android TV, Smartphone, Universal | [`Retrostream-v1.0.0-universal.apk`](http://retrostream.epizy.com/apk/Retrostream-v1.0.0-universal.apk) (246.3 KB)<br>[`Retrostream-v1.0.0-smartphone.apk`](http://retrostream.epizy.com/apk/Retrostream-v1.0.0-smartphone.apk) (270.3 KB)<br>[`Retrostream-v1.0.0-android-tv.apk`](http://retrostream.epizy.com/apk/Retrostream-v1.0.0-android-tv.apk) (274.4 KB) | ⚪ `configured` |
-| **[openworld4all.gt.tc](http://openworld4all.gt.tc)** | [Openworld4All (tc.gt.openworld4all)](https://github.com/thakoralpesh3/infinityfree) | Android TV, Smartphone, Universal | [`Openworld4All-v1.0.0-smartphone.apk`](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-smartphone.apk) (222.3 KB)<br>[`Openworld4All-v1.1.0-smartphone.apk`](http://openworld4all.gt.tc/apk/Openworld4All-v1.1.0-smartphone.apk) (234.3 KB)<br>[`Openworld4All-v1.0.0-android-tv.apk`](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-android-tv.apk) (226.4 KB)<br>[`Openworld4All-v1.0.0-universal.apk`](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-universal.apk) (226.4 KB)<br>[`Openworld4All-converted-tv.apk`](http://openworld4all.gt.tc/apk/Openworld4All-converted-tv.apk) (326.5 KB) | ⚪ `active` |
+| **[openworld4all.gt.tc](http://openworld4all.gt.tc)** | [Openworld4All (tc.gt.openworld4all)](https://github.com/thakoralpesh3/infinityfree) | Android TV, Smartphone, Universal | [`Openworld4All-v1.0.0-smartphone.apk`](https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-v1.0.0-smartphone.apk) (222.3 KB) ⚡<br>[`Openworld4All-v1.1.0-smartphone.apk`](https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-v1.1.0-smartphone.apk) (234.3 KB) ⚡<br>[`Openworld4All-v1.0.0-android-tv.apk`](https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-v1.0.0-android-tv.apk) (226.4 KB) ⚡<br>[`Openworld4All-v1.0.0-universal.apk`](https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-v1.0.0-universal.apk) (226.4 KB) ⚡<br>[`Openworld4All-converted-tv.apk`](https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-converted-tv.apk) (326.5 KB) ⚡ | ⚪ `active` |
 
 ---
 
@@ -24,85 +24,85 @@
 ### 🚀 [anime4all.epizy.com](http://anime4all.epizy.com) - Web2APK Anime Streaming App
 - **Live Portal URL**: [http://anime4all.epizy.com](http://anime4all.epizy.com)
 - **GitHub Repository**: [`thakoralpesh3/web-to-apk-autonomous-agent`](https://github.com/thakoralpesh3/web-to-apk-autonomous-agent)
-- **Description**: Responsive download portal for Anime4All streaming application across Mobile and Android TV.
+- **What This Website Is For**: Responsive download portal for Anime4All streaming application across Mobile and Android TV.
 - **Remote FTP Target**: `/htdocs`
 
 **Hosted APK Distribution:**
 
-| APK File | App Name | Version | Target Device | Direct Download |
-| :--- | :--- | :--- | :--- | :--- |
-| `Anime4All-v1.0.0-universal.apk` | **Anime4All** | `v1.0.0` | Universal | [⬇️ Download APK](http://anime4all.epizy.com/apk/Anime4All-v1.0.0-universal.apk) |
-| `Anime4All-v1.0.0-android-tv.apk` | **Anime4All** | `v1.0.0` | Android TV | [⬇️ Download APK](http://anime4all.epizy.com/apk/Anime4All-v1.0.0-android-tv.apk) |
-| `Anime4All-v1.0.0-smartphone.apk` | **Anime4All** | `v1.0.0` | Smartphone | [⬇️ Download APK](http://anime4all.epizy.com/apk/Anime4All-v1.0.0-smartphone.apk) |
+| APK File | App Name | Version | Target Device | Direct Download (GitHub CDN) | Local Mirror |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `Anime4All-v1.0.0-universal.apk` | **Anime4All** | `v1.0.0` | Universal | *Pending GitHub upload* | [🌐 Mirror](http://anime4all.epizy.com/apk/Anime4All-v1.0.0-universal.apk) |
+| `Anime4All-v1.0.0-android-tv.apk` | **Anime4All** | `v1.0.0` | Android TV | *Pending GitHub upload* | [🌐 Mirror](http://anime4all.epizy.com/apk/Anime4All-v1.0.0-android-tv.apk) |
+| `Anime4All-v1.0.0-smartphone.apk` | **Anime4All** | `v1.0.0` | Smartphone | *Pending GitHub upload* | [🌐 Mirror](http://anime4all.epizy.com/apk/Anime4All-v1.0.0-smartphone.apk) |
 
 ### 🚀 [cinemamoviebox.epizy.com](http://cinemamoviebox.epizy.com) - Cinema MovieBox Media Center
 - **Live Portal URL**: [http://cinemamoviebox.epizy.com](http://cinemamoviebox.epizy.com)
 - **GitHub Repository**: [`thakoralpesh3/web-to-apk-autonomous-agent`](https://github.com/thakoralpesh3/web-to-apk-autonomous-agent)
-- **Description**: Cinema and Movie streaming portal with dedicated Android TV and Smartphone APK downloads.
+- **What This Website Is For**: Cinema and Movie streaming portal with dedicated Android TV and Smartphone APK downloads.
 - **Remote FTP Target**: `/htdocs`
 
 **Hosted APK Distribution:**
 
-| APK File | App Name | Version | Target Device | Direct Download |
-| :--- | :--- | :--- | :--- | :--- |
-| `Cinema_MovieBox-v1.0.0-converted-universal.apk` | **Cinema Moviebox** | `v1.0.0` | Universal | [⬇️ Download APK](http://cinemamoviebox.epizy.com/apk/Cinema_MovieBox-v1.0.0-converted-universal.apk) |
-| `Cinema_MovieBox-v1.0.0-smartphone.apk` | **Cinema Moviebox** | `v1.0.0` | Smartphone | [⬇️ Download APK](http://cinemamoviebox.epizy.com/apk/Cinema_MovieBox-v1.0.0-smartphone.apk) |
-| `Cinema_MovieBox-v1.0.0-android-tv.apk` | **Cinema Moviebox** | `v1.0.0` | Android TV | [⬇️ Download APK](http://cinemamoviebox.epizy.com/apk/Cinema_MovieBox-v1.0.0-android-tv.apk) |
-| `Cinema_MovieBox-v1.0.0-universal.apk` | **Cinema Moviebox** | `v1.0.0` | Universal | [⬇️ Download APK](http://cinemamoviebox.epizy.com/apk/Cinema_MovieBox-v1.0.0-universal.apk) |
+| APK File | App Name | Version | Target Device | Direct Download (GitHub CDN) | Local Mirror |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `Cinema_MovieBox-v1.0.0-converted-universal.apk` | **Cinema Moviebox** | `v1.0.0` | Universal | *Pending GitHub upload* | [🌐 Mirror](http://cinemamoviebox.epizy.com/apk/Cinema_MovieBox-v1.0.0-converted-universal.apk) |
+| `Cinema_MovieBox-v1.0.0-smartphone.apk` | **Cinema Moviebox** | `v1.0.0` | Smartphone | *Pending GitHub upload* | [🌐 Mirror](http://cinemamoviebox.epizy.com/apk/Cinema_MovieBox-v1.0.0-smartphone.apk) |
+| `Cinema_MovieBox-v1.0.0-android-tv.apk` | **Cinema Moviebox** | `v1.0.0` | Android TV | *Pending GitHub upload* | [🌐 Mirror](http://cinemamoviebox.epizy.com/apk/Cinema_MovieBox-v1.0.0-android-tv.apk) |
+| `Cinema_MovieBox-v1.0.0-universal.apk` | **Cinema Moviebox** | `v1.0.0` | Universal | *Pending GitHub upload* | [🌐 Mirror](http://cinemamoviebox.epizy.com/apk/Cinema_MovieBox-v1.0.0-universal.apk) |
 
 ### 🚀 [tvmouse.epizy.com](http://tvmouse.epizy.com) - TV Mouse Navigation & Leanback Suite
 - **Live Portal URL**: [http://tvmouse.epizy.com](http://tvmouse.epizy.com)
 - **GitHub Repository**: [`thakoralpesh3/apk-tv-converter-agent`](https://github.com/thakoralpesh3/apk-tv-converter-agent)
-- **Description**: Android TV virtual mouse & D-pad pointer utility APK distribution portal.
+- **What This Website Is For**: Android TV virtual mouse & D-pad pointer utility APK distribution portal.
 - **Remote FTP Target**: `/htdocs`
 
 **Hosted APK Distribution:**
 
-| APK File | App Name | Version | Target Device | Direct Download |
-| :--- | :--- | :--- | :--- | :--- |
-| `TV_Mouse_Suite-v1.0.0-android-tv.apk` | **TV Mouse Suite** | `v1.0.0` | Android TV | [⬇️ Download APK](http://tvmouse.epizy.com/apk/TV_Mouse_Suite-v1.0.0-android-tv.apk) |
+| APK File | App Name | Version | Target Device | Direct Download (GitHub CDN) | Local Mirror |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `TV_Mouse_Suite-v1.0.0-android-tv.apk` | **TV Mouse Suite** | `v1.0.0` | Android TV | *Pending GitHub upload* | [🌐 Mirror](http://tvmouse.epizy.com/apk/TV_Mouse_Suite-v1.0.0-android-tv.apk) |
 
 ### 🚀 [cyberarcade.epizy.com](http://cyberarcade.epizy.com) - Cyber Arcade Gaming Suite
 - **Live Portal URL**: [http://cyberarcade.epizy.com](http://cyberarcade.epizy.com)
 - **GitHub Repository**: [`thakoralpesh3/web-to-apk-autonomous-agent`](https://github.com/thakoralpesh3/web-to-apk-autonomous-agent)
-- **Description**: High performance arcade gaming apps for Android and Android TV.
+- **What This Website Is For**: High performance arcade gaming apps for Android and Android TV.
 - **Remote FTP Target**: `/htdocs`
 
 **Hosted APK Distribution:**
 
-| APK File | App Name | Version | Target Device | Direct Download |
-| :--- | :--- | :--- | :--- | :--- |
-| `Cyber_Arcade_Universal-v1.0.0-universal.apk` | **Cyber Arcade** | `v1.0.0` | Universal | [⬇️ Download APK](http://cyberarcade.epizy.com/apk/Cyber_Arcade_Universal-v1.0.0-universal.apk) |
+| APK File | App Name | Version | Target Device | Direct Download (GitHub CDN) | Local Mirror |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `Cyber_Arcade_Universal-v1.0.0-universal.apk` | **Cyber Arcade** | `v1.0.0` | Universal | *Pending GitHub upload* | [🌐 Mirror](http://cyberarcade.epizy.com/apk/Cyber_Arcade_Universal-v1.0.0-universal.apk) |
 
 ### 🚀 [retrostream.epizy.com](http://retrostream.epizy.com) - RetroStream Media
 - **Live Portal URL**: [http://retrostream.epizy.com](http://retrostream.epizy.com)
 - **GitHub Repository**: [`thakoralpesh3/web-to-apk-autonomous-agent`](https://github.com/thakoralpesh3/web-to-apk-autonomous-agent)
-- **Description**: Retro entertainment and media streaming apps for Android TV and mobile.
+- **What This Website Is For**: Retro entertainment and media streaming apps for Android TV and mobile.
 - **Remote FTP Target**: `/htdocs`
 
 **Hosted APK Distribution:**
 
-| APK File | App Name | Version | Target Device | Direct Download |
-| :--- | :--- | :--- | :--- | :--- |
-| `Retrostream-v1.0.0-universal.apk` | **Retrostream** | `v1.0.0` | Universal | [⬇️ Download APK](http://retrostream.epizy.com/apk/Retrostream-v1.0.0-universal.apk) |
-| `Retrostream-v1.0.0-smartphone.apk` | **Retrostream** | `v1.0.0` | Smartphone | [⬇️ Download APK](http://retrostream.epizy.com/apk/Retrostream-v1.0.0-smartphone.apk) |
-| `Retrostream-v1.0.0-android-tv.apk` | **Retrostream** | `v1.0.0` | Android TV | [⬇️ Download APK](http://retrostream.epizy.com/apk/Retrostream-v1.0.0-android-tv.apk) |
+| APK File | App Name | Version | Target Device | Direct Download (GitHub CDN) | Local Mirror |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `Retrostream-v1.0.0-universal.apk` | **Retrostream** | `v1.0.0` | Universal | *Pending GitHub upload* | [🌐 Mirror](http://retrostream.epizy.com/apk/Retrostream-v1.0.0-universal.apk) |
+| `Retrostream-v1.0.0-smartphone.apk` | **Retrostream** | `v1.0.0` | Smartphone | *Pending GitHub upload* | [🌐 Mirror](http://retrostream.epizy.com/apk/Retrostream-v1.0.0-smartphone.apk) |
+| `Retrostream-v1.0.0-android-tv.apk` | **Retrostream** | `v1.0.0` | Android TV | *Pending GitHub upload* | [🌐 Mirror](http://retrostream.epizy.com/apk/Retrostream-v1.0.0-android-tv.apk) |
 
 ### 🚀 [openworld4all.gt.tc](http://openworld4all.gt.tc) - Openworld4All (tc.gt.openworld4all)
 - **Live Portal URL**: [http://openworld4all.gt.tc](http://openworld4all.gt.tc)
 - **GitHub Repository**: [`thakoralpesh3/infinityfree`](https://github.com/thakoralpesh3/infinityfree)
-- **Description**: Experience smooth big-screen navigation with active TV remote marker focus.
+- **What This Website Is For**: Experience smooth big-screen navigation with active TV remote marker focus.
 - **Remote FTP Target**: `/htdocs`
 
 **Hosted APK Distribution:**
 
-| APK File | App Name | Version | Target Device | Direct Download |
-| :--- | :--- | :--- | :--- | :--- |
-| `Openworld4All-v1.0.0-smartphone.apk` | **Openworld4All** | `v1.0.0` | Smartphone | [⬇️ Download APK](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-smartphone.apk) |
-| `Openworld4All-v1.1.0-smartphone.apk` | **Openworld4All** | `v1.1.0` | Smartphone | [⬇️ Download APK](http://openworld4all.gt.tc/apk/Openworld4All-v1.1.0-smartphone.apk) |
-| `Openworld4All-v1.0.0-android-tv.apk` | **Openworld4All** | `v1.0.0` | Android TV | [⬇️ Download APK](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-android-tv.apk) |
-| `Openworld4All-v1.0.0-universal.apk` | **Openworld4All** | `v1.0.0` | Universal | [⬇️ Download APK](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-universal.apk) |
-| `Openworld4All-converted-tv.apk` | **Openworld4All** | `v1.0.0` | Android TV | [⬇️ Download APK](http://openworld4all.gt.tc/apk/Openworld4All-converted-tv.apk) |
+| APK File | App Name | Version | Target Device | Direct Download (GitHub CDN) | Local Mirror |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `Openworld4All-v1.0.0-smartphone.apk` | **Openworld4All** | `v1.0.0` | Smartphone | [⬇️ Download APK (GitHub)](https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-v1.0.0-smartphone.apk) | [🌐 Mirror](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-smartphone.apk) |
+| `Openworld4All-v1.1.0-smartphone.apk` | **Openworld4All** | `v1.1.0` | Smartphone | [⬇️ Download APK (GitHub)](https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-v1.1.0-smartphone.apk) | [🌐 Mirror](http://openworld4all.gt.tc/apk/Openworld4All-v1.1.0-smartphone.apk) |
+| `Openworld4All-v1.0.0-android-tv.apk` | **Openworld4All** | `v1.0.0` | Android TV | [⬇️ Download APK (GitHub)](https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-v1.0.0-android-tv.apk) | [🌐 Mirror](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-android-tv.apk) |
+| `Openworld4All-v1.0.0-universal.apk` | **Openworld4All** | `v1.0.0` | Universal | [⬇️ Download APK (GitHub)](https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-v1.0.0-universal.apk) | [🌐 Mirror](http://openworld4all.gt.tc/apk/Openworld4All-v1.0.0-universal.apk) |
+| `Openworld4All-converted-tv.apk` | **Openworld4All** | `v1.0.0` | Android TV | [⬇️ Download APK (GitHub)](https://github.com/thakoralpesh3/infinityfree/releases/download/apks/Openworld4All-converted-tv.apk) | [🌐 Mirror](http://openworld4all.gt.tc/apk/Openworld4All-converted-tv.apk) |
 
 ---
 
