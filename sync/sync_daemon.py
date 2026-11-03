@@ -97,13 +97,29 @@ def update_catalog_markdown():
         print(f"Notice: Could not regenerate DOMAINS.md: {e}")
 
 
+def get_brain_dir() -> Path:
+    """Returns the most active brain directory for conversation syncing."""
+    primary = Path(f"/home/alpesh/.gemini/antigravity/brain/{CONVERSATION_ID}")
+    if primary.exists():
+        return primary
+    # Fallback to the latest modified brain folder
+    brain_root = Path("/home/alpesh/.gemini/antigravity/brain")
+    if brain_root.exists():
+        candidates = [p for p in brain_root.iterdir() if p.is_dir() and (p / ".system_generated" / "logs" / "transcript.jsonl").exists()]
+        if candidates:
+            candidates.sort(key=lambda p: p.stat().st_mtime, reverse=True)
+            return candidates[0]
+    return primary
+
 def sync_cycle() -> bool:
     """Executes a single synchronization cycle. Returns True if changes were pushed."""
     CONVERSATION_DIR.mkdir(parents=True, exist_ok=True)
     ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
 
+    brain_dir = get_brain_dir()
+
     # 1. Sync Transcripts
-    logs_dir = BRAIN_DIR / ".system_generated" / "logs"
+    logs_dir = brain_dir / ".system_generated" / "logs"
     transcript_src = logs_dir / "transcript.jsonl"
     transcript_full_src = logs_dir / "transcript_full.jsonl"
 
@@ -116,28 +132,35 @@ def sync_cycle() -> bool:
     if transcript_full_src.exists():
         shutil.copy2(transcript_full_src, CONVERSATION_DIR / "transcript_full.jsonl")
 
-    # 2. Sync Artifacts (implementation_plan.md, walkthrough.md, etc.)
-    if BRAIN_DIR.exists():
-        for item in BRAIN_DIR.glob("*.md"):
+    # 2. Sync Artifacts
+    if brain_dir.exists():
+        for item in brain_dir.glob("*.md"):
             shutil.copy2(item, ARTIFACTS_DIR / item.name)
 
     # 3. Update DOMAINS.md
     update_catalog_markdown()
 
-    # 4. Check Git Status
+    # 4. Check for uncommitted changes
     subprocess.run(["git", "add", "."], cwd=REPO_DIR, capture_output=True)
     status = subprocess.run(
         ["git", "status", "--porcelain"], cwd=REPO_DIR, capture_output=True, text=True
     )
 
-    if not status.stdout.strip():
+    has_changes = bool(status.stdout.strip())
+    if has_changes:
+        now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        commit_msg = f"🤖 Auto-Sync: Antigravity Conversation & InfinityFree Agent [{now_str}]"
+        subprocess.run(["git", "commit", "-m", commit_msg], cwd=REPO_DIR, capture_output=True)
+
+    # 5. Check for unpushed commits
+    cherry = subprocess.run(["git", "cherry", "-v"], cwd=REPO_DIR, capture_output=True, text=True)
+    has_unpushed = bool(cherry.stdout.strip())
+
+    if not has_changes and not has_unpushed:
         return False
 
-    # 5. Commit and Push
+    # 6. Push to origin main
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    commit_msg = f"🤖 Auto-Sync: Antigravity Conversation & InfinityFree Agent [{now_str}]"
-
-    subprocess.run(["git", "commit", "-m", commit_msg], cwd=REPO_DIR, capture_output=True)
     push_res = subprocess.run(["git", "push", "origin", "main"], cwd=REPO_DIR, capture_output=True, text=True)
 
     if push_res.returncode == 0:

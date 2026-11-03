@@ -8,6 +8,9 @@ WorkingDirectory=/home/alpesh/infinityfree
 ExecStart=/usr/bin/python3 /home/alpesh/infinityfree/sync/sync_daemon.py --interval 30
 Restart=always
 RestartSec=10
+Environment=PYTHONUNBUFFERED=1
+Environment="PATH=/home/alpesh/bin:/home/alpesh/.local/bin:/usr/local/bin:/usr/bin:/bin"
+Environment=HOME=/home/alpesh
 StandardOutput=journal
 StandardError=journal
 
