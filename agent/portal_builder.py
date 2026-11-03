@@ -27,6 +27,10 @@ class PortalBuilder:
         domain = domain_info.get("domain", "app.epizy.com")
         project_name = domain_info.get("project", "Autonomous APK Distribution")
         description = domain_info.get("description", "Download verified Android APK releases directly.")
+        purpose = domain_info.get("purpose") or description
+        package_id = domain_info.get("package", "")
+        tagline = domain_info.get("tagline", "")
+        highlights: List[str] = domain_info.get("highlights", [])
         apks: List[Dict] = domain_info.get("hosted_apks", [])
 
         # Generate APK download cards
@@ -37,9 +41,11 @@ class PortalBuilder:
             version = apk.get("version", "1.0.0")
             target = apk.get("device_target", "Universal")
             size = apk.get("size_kb", "200")
+            github_url = apk.get("github_url")
             download_rel = apk.get("download_path", f"apk/{filename}").lstrip("/")
-            download_url = f"http://{domain}/{download_rel}"
             
+            # Primary download destination
+            download_url = github_url if github_url else f"http://{domain}/{download_rel}"
             qr_b64 = cls.generate_qr_base64(download_url)
 
             badge_color = "#3b82f6"
@@ -48,11 +54,18 @@ class PortalBuilder:
             elif "smartphone" in target.lower():
                 badge_color = "#8b5cf6"
 
+            cdn_badge = ""
+            if github_url:
+                cdn_badge = '<span style="background: rgba(35, 134, 54, 0.2); color: #3fb950; border: 1px solid rgba(63, 185, 80, 0.4); font-size: 0.72rem; padding: 0.2rem 0.5rem; border-radius: 4px; font-weight: 600;">⚡ GitHub Fast CDN</span>'
+
             card = f"""
             <div class="apk-card">
                 <div class="card-header">
-                    <div class="badge" style="background-color: {badge_color}22; color: {badge_color}; border: 1px solid {badge_color}55;">
-                        {target}
+                    <div style="display: flex; gap: 0.5rem; align-items: center;">
+                        <div class="badge" style="background-color: {badge_color}22; color: {badge_color}; border: 1px solid {badge_color}55;">
+                            {target}
+                        </div>
+                        {cdn_badge}
                     </div>
                     <span class="version-tag">v{version}</span>
                 </div>
@@ -64,9 +77,9 @@ class PortalBuilder:
                 </div>
                 <div class="qr-container">
                     <img src="data:image/png;base64,{qr_b64}" alt="Scan to Download QR" />
-                    <p class="qr-label">Scan with Phone or TV Camera</p>
+                    <p class="qr-label">Scan to Download directly on Phone / TV</p>
                 </div>
-                <a href="{download_rel}" class="btn-download" download>
+                <a href="{download_url}" class="btn-download" {"target='_blank' rel='noopener noreferrer'" if github_url else "download"}>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                         <polyline points="7 10 12 15 17 10"></polyline>
@@ -79,6 +92,21 @@ class PortalBuilder:
             apk_cards_html.append(card)
 
         cards_str = "\n".join(apk_cards_html) if apk_cards_html else "<p>No APKs deployed yet.</p>"
+
+        # Highlights HTML
+        highlights_html = ""
+        if highlights:
+            items = "".join([f"<li>✨ {h}</li>" for h in highlights])
+            highlights_html = f"""
+            <div class="highlights-box" style="background: rgba(30, 41, 59, 0.5); border: 1px solid var(--surface-border); border-radius: 0.75rem; padding: 1.25rem 1.75rem; margin-bottom: 2.5rem;">
+                <h3 style="font-size: 1.1rem; color: var(--accent); margin-bottom: 0.75rem;">🌟 What This Website & App Suite Is For:</h3>
+                <p style="color: var(--text-main); margin-bottom: 0.75rem; font-size: 0.95rem; line-height: 1.5;">{purpose}</p>
+                {f'<p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.75rem;"><strong>Android Package ID:</strong> <code>{package_id}</code></p>' if package_id else ''}
+                <ul style="list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.5rem; color: var(--text-muted); font-size: 0.9rem;">
+                    {items}
+                </ul>
+            </div>
+            """
 
         html = f"""<!DOCTYPE html>
 <html lang="en">
