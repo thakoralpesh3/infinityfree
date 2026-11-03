@@ -203,6 +203,109 @@ def cmd_deploy(args):
 
     print(f"\n🎉 Deployment complete! Visit: http://{args.domain}")
 
+def cmd_upload_github_apks(args):
+    from agent.github_release import GitHubReleaseManager
+    catalog = DomainCatalog()
+    scanner = APKScanner()
+    all_apks = {a["filename"]: a for a in scanner.scan_all_apks()}
+
+    target_domain = args.domain
+    domains = [catalog.get(target_domain)] if target_domain else catalog.list_all()
+
+    for d in domains:
+        if not d:
+            continue
+        print(f"\nProcessing domain: {d['domain']}...")
+        hosted = d.get("hosted_apks", [])
+        updated = False
+        for apk in hosted:
+            fn = apk.get("filename")
+            if fn in all_apks:
+                local_path = Path(all_apks[fn]["filepath"])
+                print(f"Uploading {fn} ({all_apks[fn]['size_kb']} KB) to GitHub Releases...")
+                gh_url = GitHubReleaseManager.upload_apk(local_path)
+                if gh_url:
+                    apk["github_url"] = gh_url
+                    updated = True
+                    print(f"✓ Uploaded! Direct URL: {gh_url}")
+                else:
+                    print(f"✗ Failed to upload {fn}")
+        if updated:
+            catalog.update(d["domain"], {"hosted_apks": hosted})
+
+    MarkdownGenerator.write_domains_md(catalog.list_all())
+    for d in catalog.list_all():
+        output_dir = Config.BASE_DIR / "staging" / d["domain"]
+        PortalBuilder.generate_portal_files(d, output_dir)
+    print("\n✓ Completed! DOMAINS.md and download portals updated with GitHub CDN links.")
+
+def cmd_sync_domain(args):
+    from agent.github_release import GitHubReleaseManager
+    catalog = DomainCatalog()
+    scanner = APKScanner()
+    domain = args.domain.strip()
+
+    d = catalog.get(domain)
+    clean_keyword = domain.split(".")[0]
+    meta = scanner.find_metadata_for_app(clean_keyword)
+
+    purpose_str = meta.get("tagline") if meta else ""
+    if not purpose_str:
+        purpose_str = d.get("purpose") if d else f"Web application portal and APK distribution for {domain}"
+
+    project_name = args.project or (meta.get("package") and f"Openworld4All ({meta['package']})") or (d.get("project") if d else f"{clean_keyword.title()} Suite")
+    desc_str = args.description or purpose_str
+
+    updates = {
+        "domain": domain,
+        "project": project_name,
+        "description": desc_str,
+        "purpose": purpose_str,
+        "package": meta.get("package", "") if meta else (d.get("package", "") if d else ""),
+        "highlights": meta.get("highlights", []) if meta else (d.get("highlights", []) if d else []),
+        "status": "active"
+    }
+
+    if not d:
+        d = catalog.add(updates)
+        print(f"✓ Registered new domain '{domain}' in catalog.")
+    else:
+        d = catalog.update(domain, updates)
+        print(f"✓ Updated metadata for domain '{domain}'.")
+
+    # Match and upload APKs
+    all_apks = scanner.scan_all_apks()
+    matched_apks = []
+    app_key = clean_keyword.lower().replace("-", "").replace("_", "")
+    for a in all_apks:
+        a_key = a["app_name"].lower().replace(" ", "").replace("-", "").replace("_", "")
+        if app_key in a_key or a_key in app_key:
+            local_path = Path(a["filepath"])
+            print(f"Uploading APK to GitHub Releases: {a['filename']} ({a['size_kb']} KB)...")
+            gh_url = GitHubReleaseManager.upload_apk(local_path)
+            matched_apks.append({
+                "filename": a["filename"],
+                "app_name": a["app_name"],
+                "version": a["version"],
+                "device_target": a["device_target"],
+                "size_kb": a["size_kb"],
+                "download_path": f"apk/{a['filename']}",
+                "github_url": gh_url or ""
+            })
+
+    if matched_apks:
+        catalog.update(domain, {"hosted_apks": matched_apks})
+        print(f"✓ Linked & uploaded {len(matched_apks)} APK(s) to GitHub Releases for domain '{domain}'.")
+
+    # Generate portal
+    staging_dir = Config.BASE_DIR / "staging" / domain
+    PortalBuilder.generate_portal_files(catalog.get(domain), staging_dir)
+    print(f"✓ Generated portal at staging/{domain}/index.html with QR code and GitHub download buttons.")
+
+    # Update DOMAINS.md
+    MarkdownGenerator.write_domains_md(catalog.list_all())
+    print("✓ Updated DOMAINS.md with live GitHub download links.")
+
 def main():
     parser = argparse.ArgumentParser(description="InfinityFree Account & Domain Manager Agent")
     subparsers = parser.add_subparsers(dest="command", help="Available subcommands")
@@ -240,6 +343,16 @@ def main():
     # sync-github
     subparsers.add_parser("sync-github", help="Generate DOMAINS.md for GitHub")
 
+    # upload-github-apks
+    p_up_gh = subparsers.add_parser("upload-github-apks", help="Upload APKs to GitHub Releases")
+    p_up_gh.add_argument("--domain", help="Specific domain (default: all)")
+
+    # sync-domain
+    p_sync_dom = subparsers.add_parser("sync-domain", help="Introspect domain, match APKs, upload to GitHub and generate portal")
+    p_sync_dom.add_argument("domain", help="Domain name (e.g. openworld4all.gt.tc)")
+    p_sync_dom.add_argument("--project", help="Project title")
+    p_sync_dom.add_argument("--description", help="Description")
+
     # deploy
     p_dep = subparsers.add_parser("deploy", help="Deploy portal and APKs to InfinityFree via FTP")
     p_dep.add_argument("domain", help="Domain to deploy to")
@@ -259,6 +372,8 @@ def main():
         "build-portal": cmd_build_portal,
         "health-check": cmd_health_check,
         "sync-github": cmd_sync_github,
+        "upload-github-apks": cmd_upload_github_apks,
+        "sync-domain": cmd_sync_domain,
         "deploy": cmd_deploy
     }
 
