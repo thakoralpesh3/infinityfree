@@ -311,6 +311,8 @@ class PortalBuilder:
             <p class="subtitle">{description}</p>
         </header>
 
+        {highlights_html}
+
         <main class="grid">
             {cards_str}
         </main>
