@@ -51,11 +51,13 @@ class MarkdownGenerator:
                 targets = set()
                 for a in apks:
                     fn = a.get("filename", "")
+                    github_url = a.get("github_url")
                     rel = a.get("download_path", f"apk/{fn}").lstrip("/")
                     size = a.get("size_kb", "")
                     size_str = f" ({size} KB)" if size else ""
-                    dl_url = f"{url}/{rel}"
-                    apk_entries.append(f"[`{fn}`]({dl_url}){size_str}")
+                    link_url = github_url if github_url else f"{url}/{rel}"
+                    label_suffix = " ⚡" if github_url else ""
+                    apk_entries.append(f"[`{fn}`]({link_url}){size_str}{label_suffix}")
                     targets.add(a.get("device_target", "Universal"))
                 
                 apks_col = "<br>".join(apk_entries)
@@ -79,31 +81,51 @@ class MarkdownGenerator:
             url = f"http://{domain}"
             project = d.get("project", "")
             desc = d.get("description", "")
+            purpose = d.get("purpose") or desc
+            package_id = d.get("package", "")
+            highlights = d.get("highlights", [])
             repo = d.get("github_repo", "")
 
-            md.extend([
+            md_lines_item = [
                 f"### 🚀 [{domain}]({url}) - {project}",
                 f"- **Live Portal URL**: [{url}]({url})",
                 f"- **GitHub Repository**: [`{repo}`](https://github.com/{repo})" if repo else "",
-                f"- **Description**: {desc}",
+                f"- **What This Website Is For**: {purpose}",
+            ]
+            if package_id:
+                md_lines_item.append(f"- **Android Package Identifier**: `{package_id}`")
+            if highlights:
+                md_lines_item.append("- **Key Highlights**:")
+                for h in highlights:
+                    md_lines_item.append(f"  - {h}")
+
+            md_lines_item.extend([
                 f"- **Remote FTP Target**: `/{d.get('target_dir', 'htdocs')}`",
                 "",
                 "**Hosted APK Distribution:**",
                 ""
             ])
+            md.extend(md_lines_item)
 
             apks = d.get("hosted_apks", [])
             if apks:
-                md.append("| APK File | App Name | Version | Target Device | Direct Download |")
-                md.append("| :--- | :--- | :--- | :--- | :--- |")
+                md.append("| APK File | App Name | Version | Target Device | Direct Download (GitHub CDN) | Local Mirror |")
+                md.append("| :--- | :--- | :--- | :--- | :--- | :--- |")
                 for a in apks:
                     fn = a.get("filename", "")
                     name = a.get("app_name", fn)
                     ver = a.get("version", "1.0.0")
                     dev = a.get("device_target", "Universal")
+                    github_url = a.get("github_url")
                     rel = a.get("download_path", f"apk/{fn}").lstrip("/")
                     dl_url = f"{url}/{rel}"
-                    md.append(f"| `{fn}` | **{name}** | `v{ver}` | {dev} | [⬇️ Download APK]({dl_url}) |")
+                    
+                    if github_url:
+                        gh_dl = f"[⬇️ Download APK (GitHub)]({github_url})"
+                    else:
+                        gh_dl = "*Pending GitHub upload*"
+
+                    md.append(f"| `{fn}` | **{name}** | `v{ver}` | {dev} | {gh_dl} | [🌐 Mirror]({dl_url}) |")
             else:
                 md.append("*No APK releases deployed yet.*")
 
