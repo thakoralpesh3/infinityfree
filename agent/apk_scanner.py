@@ -1,5 +1,6 @@
 import os
 import re
+import json
 import hashlib
 from pathlib import Path
 from typing import List, Dict
@@ -8,6 +9,24 @@ from agent.config import Config
 class APKScanner:
     def __init__(self, dirs: List[Path] = None):
         self.dirs = dirs or [Config.WEB2APK_OUTPUT_DIR, Config.APK_TV_OUTPUT_DIR]
+        self.cache_file = Config.CONFIG_DIR / "apk_cache.json"
+
+    def _load_cache(self) -> Dict:
+        try:
+            if self.cache_file.exists():
+                with open(self.cache_file, "r", encoding="utf-8") as f:
+                    return json.load(f)
+        except Exception:
+            pass
+        return {}
+
+    def _save_cache(self, cache: Dict):
+        try:
+            self.cache_file.parent.mkdir(parents=True, exist_ok=True)
+            with open(self.cache_file, "w", encoding="utf-8") as f:
+                json.dump(cache, f, indent=2)
+        except Exception:
+            pass
 
     @staticmethod
     def _parse_apk_filename(filename: str) -> Dict[str, str]:
@@ -42,32 +61,42 @@ class APKScanner:
 
     def scan_all_apks(self) -> List[Dict]:
         results = []
+        cache = self._load_cache()
+        cache_updated = False
+
         for d in self.dirs:
             if not d.exists() or not d.is_dir():
                 continue
 
             for file_path in d.glob("*.apk"):
-                size_bytes = file_path.stat().st_size
+                stat = file_path.stat()
+                size_bytes = stat.st_size
                 if size_bytes == 0:
                     continue  # Ignore empty files
+
+                mtime = stat.st_mtime
+                cached_entry = cache.get(str(file_path))
+
+                if cached_entry and cached_entry.get("mtime") == mtime and cached_entry.get("size_bytes") == size_bytes:
+                    results.append(cached_entry["data"])
+                    continue
 
                 size_kb = round(size_bytes / 1024, 1)
                 size_mb = round(size_bytes / (1024 * 1024), 2)
                 parsed = self._parse_apk_filename(file_path.name)
 
-                # Compute quick sha256
+                # Compute sha256 only on cache miss
                 hasher = hashlib.sha256()
                 with open(file_path, "rb") as f:
                     for chunk in iter(lambda: f.read(65536), b""):
                         hasher.update(chunk)
                 checksum = hasher.hexdigest()
 
-                # Check for companion metadata files
                 base_stem = file_path.stem
                 listing_md = file_path.parent / f"{base_stem}-AI-Store-Listing.md"
                 audit_json = file_path.parent / f"{base_stem}-AI-TV-Audit.json"
 
-                results.append({
+                entry = {
                     "filename": file_path.name,
                     "filepath": str(file_path),
                     "directory": str(d),
@@ -80,7 +109,18 @@ class APKScanner:
                     "device_target": parsed["device_target"],
                     "has_store_listing": listing_md.exists(),
                     "has_audit": audit_json.exists()
-                })
+                }
+
+                cache[str(file_path)] = {
+                    "mtime": mtime,
+                    "size_bytes": size_bytes,
+                    "data": entry
+                }
+                cache_updated = True
+                results.append(entry)
+
+        if cache_updated:
+            self._save_cache(cache)
 
         return sorted(results, key=lambda x: x["app_name"])
 

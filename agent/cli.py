@@ -1,4 +1,9 @@
 import sys
+from pathlib import Path
+repo_dir = str(Path(__file__).resolve().parent.parent)
+if repo_dir not in sys.path:
+    sys.path.insert(0, repo_dir)
+
 import argparse
 import json
 from pathlib import Path
@@ -10,6 +15,7 @@ from agent.ftp_client import InfinityFreeFTP
 from agent.portal_builder import PortalBuilder
 from agent.health_checker import DomainHealthChecker
 from agent.markdown_generator import MarkdownGenerator
+from agent.interactive import run_interactive_menu
 
 def cmd_status(args):
     print("\n--- InfinityFree Manager Agent Status ---")
@@ -353,6 +359,10 @@ def main():
     p_sync_dom.add_argument("--project", help="Project title")
     p_sync_dom.add_argument("--description", help="Description")
 
+    # menu / interactive
+    subparsers.add_parser("menu", help="Launch interactive terminal dashboard")
+    subparsers.add_parser("interactive", help="Alias for menu")
+
     # deploy
     p_dep = subparsers.add_parser("deploy", help="Deploy portal and APKs to InfinityFree via FTP")
     p_dep.add_argument("domain", help="Domain to deploy to")
@@ -360,8 +370,12 @@ def main():
 
     args = parser.parse_args()
     if not args.command:
-        parser.print_help()
-        sys.exit(0)
+        if sys.stdin.isatty():
+            run_interactive_menu()
+            return
+        else:
+            parser.print_help()
+            sys.exit(0)
 
     dispatch = {
         "status": cmd_status,
@@ -374,7 +388,9 @@ def main():
         "sync-github": cmd_sync_github,
         "upload-github-apks": cmd_upload_github_apks,
         "sync-domain": cmd_sync_domain,
-        "deploy": cmd_deploy
+        "deploy": cmd_deploy,
+        "menu": lambda a: run_interactive_menu(),
+        "interactive": lambda a: run_interactive_menu()
     }
 
     func = dispatch.get(args.command)

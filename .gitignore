@@ -25,6 +25,7 @@ wheels/
 
 # Secrets & Environment
 .env
+.env*
 *.pem
 *.key
 credentials.json

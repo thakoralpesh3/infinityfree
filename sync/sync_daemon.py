@@ -142,6 +142,8 @@ def sync_cycle() -> bool:
 
     # 4. Check for uncommitted changes
     subprocess.run(["git", "add", "."], cwd=REPO_DIR, capture_output=True)
+    # Safety: Guarantee secrets and env files are never staged or committed
+    subprocess.run(["git", "reset", "--", ".env*", "*secret*", "credentials*.json"], cwd=REPO_DIR, capture_output=True)
     status = subprocess.run(
         ["git", "status", "--porcelain"], cwd=REPO_DIR, capture_output=True, text=True
     )

@@ -1,0 +1,1316 @@
+{
+  "/home/alpesh/Web2APK_Output/FinalVerifiedApp-v1.0.0-universal.apk": {
+    "mtime": 1788706688.7266297,
+    "size_bytes": 158079,
+    "data": {
+      "filename": "FinalVerifiedApp-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/FinalVerifiedApp-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 158079,
+      "size_kb": 154.4,
+      "size_mb": 0.15,
+      "sha256": "fc668f64f85a38459cfbaf86e745dfa38ea7bad3c5df0f1211459f67d365a161",
+      "app_name": "Finalverifiedapp",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Example_TV-v1.0.0-universal.apk": {
+    "mtime": 1789324023.689373,
+    "size_bytes": 199040,
+    "data": {
+      "filename": "Example_TV-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Example_TV-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 199040,
+      "size_kb": 194.4,
+      "size_mb": 0.19,
+      "sha256": "376f6f1e2490e70c0d3aaf27545777136e48ee4c0a932c7201511ce38bc74209",
+      "app_name": "Example Tv",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Offline_Test_Suite-v1.0.0-universal.apk": {
+    "mtime": 1789319137.095281,
+    "size_bytes": 207232,
+    "data": {
+      "filename": "Offline_Test_Suite-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Offline_Test_Suite-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 207232,
+      "size_kb": 202.4,
+      "size_mb": 0.2,
+      "sha256": "ce738ee66b1331493cda3abe13011af09c16666e72bbc69c01980437d1204c48",
+      "app_name": "Offline Test Suite",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Manual_SVG_Brand-v1.0.0-android-tv.apk": {
+    "mtime": 1789235789.95607,
+    "size_bytes": 121056,
+    "data": {
+      "filename": "Manual_SVG_Brand-v1.0.0-android-tv.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Manual_SVG_Brand-v1.0.0-android-tv.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 121056,
+      "size_kb": 118.2,
+      "size_mb": 0.12,
+      "sha256": "487e80c7490c3d5eaf8392109e82a37b54499aee6488c85907e3045f24f67b06",
+      "app_name": "Manual Svg Brand",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/UniversalDemo-v1.0.0-universal.apk": {
+    "mtime": 1788703423.4471705,
+    "size_bytes": 165187,
+    "data": {
+      "filename": "UniversalDemo-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/UniversalDemo-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 165187,
+      "size_kb": 161.3,
+      "size_mb": 0.16,
+      "sha256": "cf67c48345382b64ca171c24001704d869dce4371d07e96922329a6d72549831",
+      "app_name": "Universaldemo",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/API_Target_App-v1.0.0-smartphone.apk": {
+    "mtime": 1789320619.513603,
+    "size_bytes": 198970,
+    "data": {
+      "filename": "API_Target_App-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/API_Target_App-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 198970,
+      "size_kb": 194.3,
+      "size_mb": 0.19,
+      "sha256": "f0c38114de9917a8489ab9d81c4be2890a457d0d2736158abb23473563009a38",
+      "app_name": "Api Target App",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Cyber_Arcade_Hardened-v1.0.0-android-tv.apk": {
+    "mtime": 1789235466.3464952,
+    "size_bytes": 211238,
+    "data": {
+      "filename": "Cyber_Arcade_Hardened-v1.0.0-android-tv.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Cyber_Arcade_Hardened-v1.0.0-android-tv.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 211238,
+      "size_kb": 206.3,
+      "size_mb": 0.2,
+      "sha256": "5f6466a75a9f84873c1693d996f09836c2f66c0f22224b42405f8677deb25f0f",
+      "app_name": "Cyber Arcade Hardened",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Cinema_MovieBox-v1.0.0-smartphone.apk": {
+    "mtime": 1793713869.4201894,
+    "size_bytes": 182586,
+    "data": {
+      "filename": "Cinema_MovieBox-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Cinema_MovieBox-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 182586,
+      "size_kb": 178.3,
+      "size_mb": 0.17,
+      "sha256": "cdcb357ad27a5679877e8082249f834f3c8e5befdae6755f136848e887ff94a5",
+      "app_name": "Cinema Moviebox",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/TV_Mouse_Suite-v1.0.0-universal.apk": {
+    "mtime": 1789308142.882093,
+    "size_bytes": 199040,
+    "data": {
+      "filename": "TV_Mouse_Suite-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/TV_Mouse_Suite-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 199040,
+      "size_kb": 194.4,
+      "size_mb": 0.19,
+      "sha256": "155eb638311af726b5da81de7a7447b779c2788e9b897ad58e6f9eed9afd4eb8",
+      "app_name": "Tv Mouse Suite",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Verify_App-v1.0.0-universal.apk": {
+    "mtime": 1789236665.2376359,
+    "size_bytes": 207232,
+    "data": {
+      "filename": "Verify_App-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Verify_App-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 207232,
+      "size_kb": 202.4,
+      "size_mb": 0.2,
+      "sha256": "beb16ebee6074143a23b841966e3d8f1479afd448f2b65edc8323c928a2a1117",
+      "app_name": "Verify App",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Anime4All-v1.0.0-universal.apk": {
+    "mtime": 1789380931.2417347,
+    "size_bytes": 223616,
+    "data": {
+      "filename": "Anime4All-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Anime4All-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 223616,
+      "size_kb": 218.4,
+      "size_mb": 0.21,
+      "sha256": "0384a633a3234d5d397fbb4b8f1d4be5df737a67ab72ca305f65d2997d4568f1",
+      "app_name": "Anime4All",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Offline_Test_Suite-v1.0.0-android-tv.apk": {
+    "mtime": 1789319137.095281,
+    "size_bytes": 207232,
+    "data": {
+      "filename": "Offline_Test_Suite-v1.0.0-android-tv.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Offline_Test_Suite-v1.0.0-android-tv.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 207232,
+      "size_kb": 202.4,
+      "size_mb": 0.2,
+      "sha256": "ce738ee66b1331493cda3abe13011af09c16666e72bbc69c01980437d1204c48",
+      "app_name": "Offline Test Suite",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Example_Mobile-v1.0.0-smartphone.apk": {
+    "mtime": 1789323928.9382963,
+    "size_bytes": 198970,
+    "data": {
+      "filename": "Example_Mobile-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Example_Mobile-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 198970,
+      "size_kb": 194.3,
+      "size_mb": 0.19,
+      "sha256": "918d4259e9ec999ec1ba26dbacaab8e4d7884468b4e5efc6b958557837be9754",
+      "app_name": "Example Mobile",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Cyber_Arcade_Hardened-v1.0.0-smartphone.apk": {
+    "mtime": 1793713875.4218616,
+    "size_bytes": 186682,
+    "data": {
+      "filename": "Cyber_Arcade_Hardened-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Cyber_Arcade_Hardened-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 186682,
+      "size_kb": 182.3,
+      "size_mb": 0.18,
+      "sha256": "47b4e543d1e08802edfe302af048293f9b07507165a6bf10b03992b1c4bcea5f",
+      "app_name": "Cyber Arcade Hardened",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Test_App-v1.0.0-universal.apk": {
+    "mtime": 1789323169.0990655,
+    "size_bytes": 199040,
+    "data": {
+      "filename": "Test_App-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Test_App-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 199040,
+      "size_kb": 194.4,
+      "size_mb": 0.19,
+      "sha256": "397c86e16c2bbfe6832199a4d61e4cd30f6745a42f23b77881bf6706d688c4b7",
+      "app_name": "Test App",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Openworld4All-v1.0.0-smartphone.apk": {
+    "mtime": 1789324682.3017201,
+    "size_bytes": 227642,
+    "data": {
+      "filename": "Openworld4All-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Openworld4All-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 227642,
+      "size_kb": 222.3,
+      "size_mb": 0.22,
+      "sha256": "bc6684e33f887b3bc400ca6bd7b64a410535e9ad57cda57d7a3e706078acb5e3",
+      "app_name": "Openworld4All",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Example_TV-v1.0.0-android-tv.apk": {
+    "mtime": 1789324023.689373,
+    "size_bytes": 199040,
+    "data": {
+      "filename": "Example_TV-v1.0.0-android-tv.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Example_TV-v1.0.0-android-tv.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 199040,
+      "size_kb": 194.4,
+      "size_mb": 0.19,
+      "sha256": "376f6f1e2490e70c0d3aaf27545777136e48ee4c0a932c7201511ce38bc74209",
+      "app_name": "Example Tv",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Retrostream-v1.0.0-universal.apk": {
+    "mtime": 1789150832.3331954,
+    "size_bytes": 252198,
+    "data": {
+      "filename": "Retrostream-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Retrostream-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 252198,
+      "size_kb": 246.3,
+      "size_mb": 0.24,
+      "sha256": "78309a89a3d7d1f63f224af1d17779a9b53cb5eb5aa6bfcc030855e7c15c8b0a",
+      "app_name": "Retrostream",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Openworld4All-v1.1.0-smartphone.apk": {
+    "mtime": 1790535005.67027,
+    "size_bytes": 239930,
+    "data": {
+      "filename": "Openworld4All-v1.1.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Openworld4All-v1.1.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 239930,
+      "size_kb": 234.3,
+      "size_mb": 0.23,
+      "sha256": "7309dd63701e523bdbf7cced2321a14c5f724c9afc45e5084cd108b4444b0efa",
+      "app_name": "Openworld4All",
+      "version": "1.1.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Retrostream-v1.0.0-smartphone.apk": {
+    "mtime": 1789755754.4742587,
+    "size_bytes": 276794,
+    "data": {
+      "filename": "Retrostream-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Retrostream-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 276794,
+      "size_kb": 270.3,
+      "size_mb": 0.26,
+      "sha256": "f4d138da8ffc42456ceb848df09924d76ee77cd1d5bfcc3aabaa8571ccdc0b06",
+      "app_name": "Retrostream",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Anime4All-v1.0.0-android-tv.apk": {
+    "mtime": 1789754808.352557,
+    "size_bytes": 223616,
+    "data": {
+      "filename": "Anime4All-v1.0.0-android-tv.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Anime4All-v1.0.0-android-tv.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 223616,
+      "size_kb": 218.4,
+      "size_mb": 0.21,
+      "sha256": "7c0feae913eace892e75f8fadb235c8b7c4b81251e679604b381c07c22c93094",
+      "app_name": "Anime4All",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/TV_Mouse_Suite-v1.0.0-smartphone.apk": {
+    "mtime": 1793713863.4355173,
+    "size_bytes": 170298,
+    "data": {
+      "filename": "TV_Mouse_Suite-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/TV_Mouse_Suite-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 170298,
+      "size_kb": 166.3,
+      "size_mb": 0.16,
+      "sha256": "dce8ee4c82c340975559f6ed4ce53fa0fa64f796efecc55e8eee915da65519da",
+      "app_name": "Tv Mouse Suite",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Cinema_MovieBox-v1.0.0-android-tv.apk": {
+    "mtime": 1789235420.8696942,
+    "size_bytes": 207142,
+    "data": {
+      "filename": "Cinema_MovieBox-v1.0.0-android-tv.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Cinema_MovieBox-v1.0.0-android-tv.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 207142,
+      "size_kb": 202.3,
+      "size_mb": 0.2,
+      "sha256": "ed40fa23230174cd18f3903b6d0733e1f1905af35c3ce38e67c6108d866baa93",
+      "app_name": "Cinema Moviebox",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Example_Mobile-v1.0.0-universal.apk": {
+    "mtime": 1789323928.9382963,
+    "size_bytes": 198970,
+    "data": {
+      "filename": "Example_Mobile-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Example_Mobile-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 198970,
+      "size_kb": 194.3,
+      "size_mb": 0.19,
+      "sha256": "918d4259e9ec999ec1ba26dbacaab8e4d7884468b4e5efc6b958557837be9754",
+      "app_name": "Example Mobile",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Cyber_Arcade_Universal_Pro-v1.0.0-universal.apk": {
+    "mtime": 1788798606.7657387,
+    "size_bytes": 190595,
+    "data": {
+      "filename": "Cyber_Arcade_Universal_Pro-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Cyber_Arcade_Universal_Pro-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 190595,
+      "size_kb": 186.1,
+      "size_mb": 0.18,
+      "sha256": "98a5e76a1fb3a22a62dfd43f309785bd783c8474fa55c02bf2585ed7ad57cb0c",
+      "app_name": "Cyber Arcade Pro",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/GenuineCompiledApp-v1.0.0-universal.apk": {
+    "mtime": 1788707597.8297267,
+    "size_bytes": 178559,
+    "data": {
+      "filename": "GenuineCompiledApp-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/GenuineCompiledApp-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 178559,
+      "size_kb": 174.4,
+      "size_mb": 0.17,
+      "sha256": "68fa6c81d36f3f3401c062069fbd308993bc707d966287a1d8928f7b8d83cc97",
+      "app_name": "Genuinecompiledapp",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Wikipedia_TV_Edition-v1.0.0-universal.apk": {
+    "mtime": 1788201445.9245617,
+    "size_bytes": 103570,
+    "data": {
+      "filename": "Wikipedia_TV_Edition-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Wikipedia_TV_Edition-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 103570,
+      "size_kb": 101.1,
+      "size_mb": 0.1,
+      "sha256": "3cbb7899b33b4ffc4d05b45079cdd7320286241d8fe90e3af98188e799525587",
+      "app_name": "Wikipedia Tv Edition",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Wikipedia_Global_TV-v1.0.0-universal.apk": {
+    "mtime": 1788798674.887271,
+    "size_bytes": 75907,
+    "data": {
+      "filename": "Wikipedia_Global_TV-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Wikipedia_Global_TV-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 75907,
+      "size_kb": 74.1,
+      "size_mb": 0.07,
+      "sha256": "3c6705fdfe8d6043ba6f53b516383cfbbcaeb4f5e996746949cf3f613ffd71ea",
+      "app_name": "Wikipedia Global Tv",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Verify_App-v1.0.0-smartphone.apk": {
+    "mtime": 1789236679.7270257,
+    "size_bytes": 207232,
+    "data": {
+      "filename": "Verify_App-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Verify_App-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 207232,
+      "size_kb": 202.4,
+      "size_mb": 0.2,
+      "sha256": "8b89aa8f84b42eef8aa8c8d148b09f15352461c9da2417bdbdc1198b63495de1",
+      "app_name": "Verify App",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/SuperApp_Features-v1.0.0-universal.apk": {
+    "mtime": 1789308458.5354462,
+    "size_bytes": 203136,
+    "data": {
+      "filename": "SuperApp_Features-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/SuperApp_Features-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 203136,
+      "size_kb": 198.4,
+      "size_mb": 0.19,
+      "sha256": "e799be7f942bad9c8bdad5113b56794a28843982ba057ae720e9fd13847e168f",
+      "app_name": "Superapp Features",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Offline_Test_Suite-v1.0.0-smartphone.apk": {
+    "mtime": 1793713929.5239527,
+    "size_bytes": 174394,
+    "data": {
+      "filename": "Offline_Test_Suite-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Offline_Test_Suite-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 174394,
+      "size_kb": 170.3,
+      "size_mb": 0.17,
+      "sha256": "05228fb649f9b8138c8ef94d24958d42e3d5a1b57d3263b16c738059c49497bf",
+      "app_name": "Offline Test Suite",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Google_News_TV-v1.0.0-universal.apk": {
+    "mtime": 1788090126.051382,
+    "size_bytes": 153216,
+    "data": {
+      "filename": "Google_News_TV-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Google_News_TV-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 153216,
+      "size_kb": 149.6,
+      "size_mb": 0.15,
+      "sha256": "80ebddd65a613989d437b5747fcaea0ad2fb54d613a1b16c8c045e06a354c3a3",
+      "app_name": "Google News Tv",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/SampleTestApp-v1.0.0-smartphone.apk": {
+    "mtime": 1790531544.0872257,
+    "size_bytes": 211258,
+    "data": {
+      "filename": "SampleTestApp-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/SampleTestApp-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 211258,
+      "size_kb": 206.3,
+      "size_mb": 0.2,
+      "sha256": "6752e98992f04bd8391b11c55d365ce6866caabcc43cef25cc8f41670b83fec0",
+      "app_name": "Sampletestapp",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Anime4All-v1.0.0-smartphone.apk": {
+    "mtime": 1789755251.4706938,
+    "size_bytes": 223546,
+    "data": {
+      "filename": "Anime4All-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Anime4All-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 223546,
+      "size_kb": 218.3,
+      "size_mb": 0.21,
+      "sha256": "56e2d02a6eadd606210186c60a1672ef06c45c3ef6ce7e70c50c3583fb495e72",
+      "app_name": "Anime4All",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Verify_App-v1.0.0-android-tv.apk": {
+    "mtime": 1789236665.2376359,
+    "size_bytes": 207232,
+    "data": {
+      "filename": "Verify_App-v1.0.0-android-tv.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Verify_App-v1.0.0-android-tv.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 207232,
+      "size_kb": 202.4,
+      "size_mb": 0.2,
+      "sha256": "beb16ebee6074143a23b841966e3d8f1479afd448f2b65edc8323c928a2a1117",
+      "app_name": "Verify App",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Retrostream-v1.0.0-android-tv.apk": {
+    "mtime": 1789755637.5660686,
+    "size_bytes": 280960,
+    "data": {
+      "filename": "Retrostream-v1.0.0-android-tv.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Retrostream-v1.0.0-android-tv.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 280960,
+      "size_kb": 274.4,
+      "size_mb": 0.27,
+      "sha256": "6d33c164a32ffe881f25571b2c093ed4e4489e4a4c065dac409ecd97520c8e31",
+      "app_name": "Retrostream",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/TestCyber-v1.0.0-smartphone.apk": {
+    "mtime": 1792310154.894209,
+    "size_bytes": 186682,
+    "data": {
+      "filename": "TestCyber-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/TestCyber-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 186682,
+      "size_kb": 182.3,
+      "size_mb": 0.18,
+      "sha256": "03f82115166c77225dc313289bc653804eb4ef7941252a03cace32bdbf8dc0af",
+      "app_name": "Testcyber",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/TV_Mouse_Suite-v1.0.0-android-tv.apk": {
+    "mtime": 1789308142.882093,
+    "size_bytes": 199040,
+    "data": {
+      "filename": "TV_Mouse_Suite-v1.0.0-android-tv.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/TV_Mouse_Suite-v1.0.0-android-tv.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 199040,
+      "size_kb": 194.4,
+      "size_mb": 0.19,
+      "sha256": "155eb638311af726b5da81de7a7447b779c2788e9b897ad58e6f9eed9afd4eb8",
+      "app_name": "Tv Mouse Suite",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Test_Drop_Game-v1.0.0-universal.apk": {
+    "mtime": 1788090421.3476202,
+    "size_bytes": 140973,
+    "data": {
+      "filename": "Test_Drop_Game-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Test_Drop_Game-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 140973,
+      "size_kb": 137.7,
+      "size_mb": 0.13,
+      "sha256": "d7261c84b9698ab65a2206fb609870b651520d7bfaeac5dc78540bac6636da15",
+      "app_name": "Test Drop Game",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/PerfectApp-v1.0.0-universal.apk": {
+    "mtime": 1788706634.6403568,
+    "size_bytes": 164364,
+    "data": {
+      "filename": "PerfectApp-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/PerfectApp-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 164364,
+      "size_kb": 160.5,
+      "size_mb": 0.16,
+      "sha256": "d90d5c505369443988e93af19d4a61d14d9ba1a0487a56045f401d478da69c93",
+      "app_name": "Perfectapp",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Openworld4All-v1.0.0-android-tv.apk": {
+    "mtime": 1789324863.3781595,
+    "size_bytes": 231808,
+    "data": {
+      "filename": "Openworld4All-v1.0.0-android-tv.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Openworld4All-v1.0.0-android-tv.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 231808,
+      "size_kb": 226.4,
+      "size_mb": 0.22,
+      "sha256": "c18af1df81f92dc928b946e6bfc447e39d2c7d4a34d7790fc2ab252feb3fe06c",
+      "app_name": "Openworld4All",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Cyber_Arcade_Universal-v1.0.0-universal.apk": {
+    "mtime": 1788201423.8921905,
+    "size_bytes": 298965,
+    "data": {
+      "filename": "Cyber_Arcade_Universal-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Cyber_Arcade_Universal-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 298965,
+      "size_kb": 292.0,
+      "size_mb": 0.29,
+      "sha256": "a5e4aab0c42025a97fe2e63d318d1ff9749cb618adb66975b7138051af9f33e5",
+      "app_name": "Cyber Arcade",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Openworld4All-v1.0.0-universal.apk": {
+    "mtime": 1789324863.3781595,
+    "size_bytes": 231808,
+    "data": {
+      "filename": "Openworld4All-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Openworld4All-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 231808,
+      "size_kb": 226.4,
+      "size_mb": 0.22,
+      "sha256": "c18af1df81f92dc928b946e6bfc447e39d2c7d4a34d7790fc2ab252feb3fe06c",
+      "app_name": "Openworld4All",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/API_Target_App-v1.0.0-universal.apk": {
+    "mtime": 1789320619.513603,
+    "size_bytes": 198970,
+    "data": {
+      "filename": "API_Target_App-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/API_Target_App-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 198970,
+      "size_kb": 194.3,
+      "size_mb": 0.19,
+      "sha256": "f0c38114de9917a8489ab9d81c4be2890a457d0d2736158abb23473563009a38",
+      "app_name": "Api Target App",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Custom_VIP_App-v2.5.0-universal.apk": {
+    "mtime": 1788716340.4921806,
+    "size_bytes": 194759,
+    "data": {
+      "filename": "Custom_VIP_App-v2.5.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Custom_VIP_App-v2.5.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 194759,
+      "size_kb": 190.2,
+      "size_mb": 0.19,
+      "sha256": "820ed9e083a1289fcdfd949cf35865ad6fe60a5994584ece98527523f19a8505",
+      "app_name": "Custom Vip App",
+      "version": "2.5.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Cyber_Arcade_TV-v1.0.0-universal.apk": {
+    "mtime": 1788183603.327611,
+    "size_bytes": 297407,
+    "data": {
+      "filename": "Cyber_Arcade_TV-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Cyber_Arcade_TV-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 297407,
+      "size_kb": 290.4,
+      "size_mb": 0.28,
+      "sha256": "7355c3dfcdcdef9cad495f34c7055a7f6a168ccfcbe1711cd5eee410acbb6b36",
+      "app_name": "Cyber Arcade Tv",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/SuperApp_Features-v1.0.0-android-tv.apk": {
+    "mtime": 1789308458.5354462,
+    "size_bytes": 203136,
+    "data": {
+      "filename": "SuperApp_Features-v1.0.0-android-tv.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/SuperApp_Features-v1.0.0-android-tv.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 203136,
+      "size_kb": 198.4,
+      "size_mb": 0.19,
+      "sha256": "e799be7f942bad9c8bdad5113b56794a28843982ba057ae720e9fd13847e168f",
+      "app_name": "Superapp Features",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/CinemaWatch-v1.0.0-smartphone.apk": {
+    "mtime": 1790531661.8450902,
+    "size_bytes": 207162,
+    "data": {
+      "filename": "CinemaWatch-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/CinemaWatch-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 207162,
+      "size_kb": 202.3,
+      "size_mb": 0.2,
+      "sha256": "a62fc531b6d0990391f793c0a5cd407b10379fe0343ff4939f6299eb0bb5bf23",
+      "app_name": "Cinemawatch",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Test_App-v1.0.0-android-tv.apk": {
+    "mtime": 1789323169.0990655,
+    "size_bytes": 199040,
+    "data": {
+      "filename": "Test_App-v1.0.0-android-tv.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Test_App-v1.0.0-android-tv.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 199040,
+      "size_kb": 194.4,
+      "size_mb": 0.19,
+      "sha256": "397c86e16c2bbfe6832199a4d61e4cd30f6745a42f23b77881bf6706d688c4b7",
+      "app_name": "Test App",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/TestApp-v1.0.0-universal.apk": {
+    "mtime": 1788703231.3084123,
+    "size_bytes": 267651,
+    "data": {
+      "filename": "TestApp-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/TestApp-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 267651,
+      "size_kb": 261.4,
+      "size_mb": 0.26,
+      "sha256": "6fff4b4e659e05887f1aef3438466b857538d45d8a28b9225cb161638f8440ae",
+      "app_name": "Testapp",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Manual_SVG_Brand-v1.0.0-smartphone.apk": {
+    "mtime": 1793713922.3663332,
+    "size_bytes": 100666,
+    "data": {
+      "filename": "Manual_SVG_Brand-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Manual_SVG_Brand-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 100666,
+      "size_kb": 98.3,
+      "size_mb": 0.1,
+      "sha256": "2dae7abf9fb2a27c24c760515645aab63859b2c2d6e197ba9c73dd69077b6973",
+      "app_name": "Manual Svg Brand",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Custom_VIP_App-v2.5.0-smartphone.apk": {
+    "mtime": 1793711954.66927,
+    "size_bytes": 199038,
+    "data": {
+      "filename": "Custom_VIP_App-v2.5.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Custom_VIP_App-v2.5.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 199038,
+      "size_kb": 194.4,
+      "size_mb": 0.19,
+      "sha256": "8396423488f0b1fe8a105f3121c8c96dcda50231eb5bf1a1610902dc71f001b3",
+      "app_name": "Custom Vip App",
+      "version": "2.5.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Wikipedia_Universal-v1.0.0-universal.apk": {
+    "mtime": 1788183624.7838783,
+    "size_bytes": 101959,
+    "data": {
+      "filename": "Wikipedia_Universal-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Wikipedia_Universal-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 101959,
+      "size_kb": 99.6,
+      "size_mb": 0.1,
+      "sha256": "c03bc0e591ef83c2c9b2b92369ffa80064e4c89a2f9cef47dad14f0f4ada96d5",
+      "app_name": "Wikipedia",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/GitHub_TV_App-v1.0.0-universal.apk": {
+    "mtime": 1788090377.2941208,
+    "size_bytes": 145264,
+    "data": {
+      "filename": "GitHub_TV_App-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/GitHub_TV_App-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 145264,
+      "size_kb": 141.9,
+      "size_mb": 0.14,
+      "sha256": "bbab3814ba6769dff9dcc4a6663bcbf94b47a14060ed2dc59c27b06d492f8220",
+      "app_name": "Github Tv App",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Cinema_MovieBox-v1.0.0-universal.apk": {
+    "mtime": 1789235420.8696942,
+    "size_bytes": 207142,
+    "data": {
+      "filename": "Cinema_MovieBox-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Cinema_MovieBox-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 207142,
+      "size_kb": 202.3,
+      "size_mb": 0.2,
+      "sha256": "ed40fa23230174cd18f3903b6d0733e1f1905af35c3ce38e67c6108d866baa93",
+      "app_name": "Cinema Moviebox",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Cyber_Arcade_Elite-v1.0.0-universal.apk": {
+    "mtime": 1788289218.8106742,
+    "size_bytes": 300723,
+    "data": {
+      "filename": "Cyber_Arcade_Elite-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Cyber_Arcade_Elite-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 300723,
+      "size_kb": 293.7,
+      "size_mb": 0.29,
+      "sha256": "afa7002f152ae9b2bd9305cb3817b050a63b5d0c7ef64c1c03faed95d1cc3187",
+      "app_name": "Cyber Arcade Elite",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Cyber_Arcade_Pro_Max-v1.0.0-universal.apk": {
+    "mtime": 1788290027.000494,
+    "size_bytes": 300733,
+    "data": {
+      "filename": "Cyber_Arcade_Pro_Max-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Cyber_Arcade_Pro_Max-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 300733,
+      "size_kb": 293.7,
+      "size_mb": 0.29,
+      "sha256": "f165cf3c72a351ddad04fa6ce3031a3ff929e763e6b94395b36baf3d0d409547",
+      "app_name": "Cyber Arcade Pro Max",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Interrupted_Arcade_App-v1.0.0-universal.apk": {
+    "mtime": 1788094211.666684,
+    "size_bytes": 142496,
+    "data": {
+      "filename": "Interrupted_Arcade_App-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Interrupted_Arcade_App-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 142496,
+      "size_kb": 139.2,
+      "size_mb": 0.14,
+      "sha256": "5f24a8aed4f4211f8e02d3fe8d66fca85254b44f8cca648e894a16f4a00941ad",
+      "app_name": "Interrupted Arcade App",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/SuperApp_Features-v1.0.0-smartphone.apk": {
+    "mtime": 1793713914.310763,
+    "size_bytes": 174394,
+    "data": {
+      "filename": "SuperApp_Features-v1.0.0-smartphone.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/SuperApp_Features-v1.0.0-smartphone.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 174394,
+      "size_kb": 170.3,
+      "size_mb": 0.17,
+      "sha256": "c98063f9d48d9711a8e921d112aa55ef6100f810170417e67d9e7ea4091d47ab",
+      "app_name": "Superapp Features",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/My_Web_App-v1.0.0-universal.apk": {
+    "mtime": 1788709280.0868695,
+    "size_bytes": 182403,
+    "data": {
+      "filename": "My_Web_App-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/My_Web_App-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 182403,
+      "size_kb": 178.1,
+      "size_mb": 0.17,
+      "sha256": "a0711017c0da98102736a16d716ec2eb77a47e31542cf918c0ba1c25b2ab252a",
+      "app_name": "My Web App",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Manual_SVG_Brand-v1.0.0-universal.apk": {
+    "mtime": 1789235789.95607,
+    "size_bytes": 121056,
+    "data": {
+      "filename": "Manual_SVG_Brand-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Manual_SVG_Brand-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 121056,
+      "size_kb": 118.2,
+      "size_mb": 0.12,
+      "sha256": "487e80c7490c3d5eaf8392109e82a37b54499aee6488c85907e3045f24f67b06",
+      "app_name": "Manual Svg Brand",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Cyber_Arcade_Hardened-v1.0.0-universal.apk": {
+    "mtime": 1789235466.3464952,
+    "size_bytes": 211238,
+    "data": {
+      "filename": "Cyber_Arcade_Hardened-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Cyber_Arcade_Hardened-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 211238,
+      "size_kb": 206.3,
+      "size_mb": 0.2,
+      "sha256": "5f6466a75a9f84873c1693d996f09836c2f66c0f22224b42405f8677deb25f0f",
+      "app_name": "Cyber Arcade Hardened",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/Web2APK_Output/Cyber_Arcade_Pro-v1.0.0-universal.apk": {
+    "mtime": 1788200159.0206482,
+    "size_bytes": 298936,
+    "data": {
+      "filename": "Cyber_Arcade_Pro-v1.0.0-universal.apk",
+      "filepath": "/home/alpesh/Web2APK_Output/Cyber_Arcade_Pro-v1.0.0-universal.apk",
+      "directory": "/home/alpesh/Web2APK_Output",
+      "size_bytes": 298936,
+      "size_kb": 291.9,
+      "size_mb": 0.29,
+      "sha256": "e6108d6f23dcdd4a0cfb493f886788902d7754448aae2668e8da6eb1fa5d16d3",
+      "app_name": "Cyber Arcade Pro",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/APK_TV_Converter_Output/jiotv_7.0.9-converted-tv-converted-tv.apk": {
+    "mtime": 1792500782.9010305,
+    "size_bytes": 22265335,
+    "data": {
+      "filename": "jiotv_7.0.9-converted-tv-converted-tv.apk",
+      "filepath": "/home/alpesh/APK_TV_Converter_Output/jiotv_7.0.9-converted-tv-converted-tv.apk",
+      "directory": "/home/alpesh/APK_TV_Converter_Output",
+      "size_bytes": 22265335,
+      "size_kb": 21743.5,
+      "size_mb": 21.23,
+      "sha256": "d95b4425707acb31e7e81c9c5b37e20736c36b4b2c28f2d34d3d884302ed5416",
+      "app_name": "Jiotv",
+      "version": "7.0.9",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/APK_TV_Converter_Output/sample-converted-mobile.apk": {
+    "mtime": 1790190135.8524733,
+    "size_bytes": 211205,
+    "data": {
+      "filename": "sample-converted-mobile.apk",
+      "filepath": "/home/alpesh/APK_TV_Converter_Output/sample-converted-mobile.apk",
+      "directory": "/home/alpesh/APK_TV_Converter_Output",
+      "size_bytes": 211205,
+      "size_kb": 206.3,
+      "size_mb": 0.2,
+      "sha256": "5b7cbd8876398fe741e1516c659c402f87fb23238af2d581ec3d9c41e905cc33",
+      "app_name": "Sample",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/APK_TV_Converter_Output/Cinema_MovieBox-v1.0.0-converted-universal.apk": {
+    "mtime": 1790187323.0289836,
+    "size_bytes": 256278,
+    "data": {
+      "filename": "Cinema_MovieBox-v1.0.0-converted-universal.apk",
+      "filepath": "/home/alpesh/APK_TV_Converter_Output/Cinema_MovieBox-v1.0.0-converted-universal.apk",
+      "directory": "/home/alpesh/APK_TV_Converter_Output",
+      "size_bytes": 256278,
+      "size_kb": 250.3,
+      "size_mb": 0.24,
+      "sha256": "f6af2cfee3dbbfd7bf1ddec772270219e1dd00f7345bb94da5753a19ee08a7fd",
+      "app_name": "Cinema Moviebox",
+      "version": "1.0.0",
+      "device_target": "Universal",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/APK_TV_Converter_Output/jiotv_7.0.9-converted-tv.apk": {
+    "mtime": 1793717515.6115627,
+    "size_bytes": 22298487,
+    "data": {
+      "filename": "jiotv_7.0.9-converted-tv.apk",
+      "filepath": "/home/alpesh/APK_TV_Converter_Output/jiotv_7.0.9-converted-tv.apk",
+      "directory": "/home/alpesh/APK_TV_Converter_Output",
+      "size_bytes": 22298487,
+      "size_kb": 21775.9,
+      "size_mb": 21.27,
+      "sha256": "7be17e03ae1999480e1351b9bdd5df3925d06c7d72806e059cbfbe2364eba3ec",
+      "app_name": "Jiotv",
+      "version": "7.0.9",
+      "device_target": "Android TV",
+      "has_store_listing": true,
+      "has_audit": true
+    }
+  },
+  "/home/alpesh/APK_TV_Converter_Output/Example_TV-v1.0.0-converted-mobile.apk": {
+    "mtime": 1790188383.1853063,
+    "size_bytes": 203100,
+    "data": {
+      "filename": "Example_TV-v1.0.0-converted-mobile.apk",
+      "filepath": "/home/alpesh/APK_TV_Converter_Output/Example_TV-v1.0.0-converted-mobile.apk",
+      "directory": "/home/alpesh/APK_TV_Converter_Output",
+      "size_bytes": 203100,
+      "size_kb": 198.3,
+      "size_mb": 0.19,
+      "sha256": "d53bf11e993e8fe077de608e60072d6f6224b572d381bf7d276272a07f44b8ed",
+      "app_name": "Example Tv",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/APK_TV_Converter_Output/Openworld4All-converted-tv.apk": {
+    "mtime": 1792520336.549993,
+    "size_bytes": 334296,
+    "data": {
+      "filename": "Openworld4All-converted-tv.apk",
+      "filepath": "/home/alpesh/APK_TV_Converter_Output/Openworld4All-converted-tv.apk",
+      "directory": "/home/alpesh/APK_TV_Converter_Output",
+      "size_bytes": 334296,
+      "size_kb": 326.5,
+      "size_mb": 0.32,
+      "sha256": "4c6af5bc8452ef8e5444ffa56b4ac0aab780429c46d08d88548837763cd3931c",
+      "app_name": "Openworld4All",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/APK_TV_Converter_Output/Cyber_Arcade_Hardened-v1.0.0-converted-mobile.apk": {
+    "mtime": 1790187315.3918037,
+    "size_bytes": 211205,
+    "data": {
+      "filename": "Cyber_Arcade_Hardened-v1.0.0-converted-mobile.apk",
+      "filepath": "/home/alpesh/APK_TV_Converter_Output/Cyber_Arcade_Hardened-v1.0.0-converted-mobile.apk",
+      "directory": "/home/alpesh/APK_TV_Converter_Output",
+      "size_bytes": 211205,
+      "size_kb": 206.3,
+      "size_mb": 0.2,
+      "sha256": "46d1b3ad79a053fb29b00d2aa0ae597ca5af5c41fcea5eabcc2410f0f9d04f85",
+      "app_name": "Cyber Arcade Hardened",
+      "version": "1.0.0",
+      "device_target": "Smartphone",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/APK_TV_Converter_Output/uptodown-com.jio.jioplay.tv-converted-tv.apk": {
+    "mtime": 1790517355.2282667,
+    "size_bytes": 15627237,
+    "data": {
+      "filename": "uptodown-com.jio.jioplay.tv-converted-tv.apk",
+      "filepath": "/home/alpesh/APK_TV_Converter_Output/uptodown-com.jio.jioplay.tv-converted-tv.apk",
+      "directory": "/home/alpesh/APK_TV_Converter_Output",
+      "size_bytes": 15627237,
+      "size_kb": 15261.0,
+      "size_mb": 14.9,
+      "sha256": "1093abb27de2ed2733cc246dd2e5956ab38702d8fed1f9faff7f00c54f12dddc",
+      "app_name": "Uptodown Com.Jio.Jioplay.Tv",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/APK_TV_Converter_Output/sample-converted-tv.apk": {
+    "mtime": 1792855323.707601,
+    "size_bytes": 248338,
+    "data": {
+      "filename": "sample-converted-tv.apk",
+      "filepath": "/home/alpesh/APK_TV_Converter_Output/sample-converted-tv.apk",
+      "directory": "/home/alpesh/APK_TV_Converter_Output",
+      "size_bytes": 248338,
+      "size_kb": 242.5,
+      "size_mb": 0.24,
+      "sha256": "ffb76ed6e35d0bda50888c0e23bee2b9b9ce57c962275461042e659899d3afeb",
+      "app_name": "Sample",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  },
+  "/home/alpesh/APK_TV_Converter_Output/API_Target_App-v1.0.0-converted-tv.apk": {
+    "mtime": 1790187307.4917557,
+    "size_bytes": 243990,
+    "data": {
+      "filename": "API_Target_App-v1.0.0-converted-tv.apk",
+      "filepath": "/home/alpesh/APK_TV_Converter_Output/API_Target_App-v1.0.0-converted-tv.apk",
+      "directory": "/home/alpesh/APK_TV_Converter_Output",
+      "size_bytes": 243990,
+      "size_kb": 238.3,
+      "size_mb": 0.23,
+      "sha256": "bd9f56f69a2181cc00c28fbe4f9a3d6623103dfd3a0f0b3abd810fa1781fc753",
+      "app_name": "Api Target App",
+      "version": "1.0.0",
+      "device_target": "Android TV",
+      "has_store_listing": false,
+      "has_audit": false
+    }
+  }
+}

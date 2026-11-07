@@ -75,19 +75,35 @@ class InfinityFreeFTP:
         finally:
             ftp.quit()
 
+    MAX_FILE_SIZE = 10 * 1024 * 1024  # 10 MB InfinityFree free hosting limit
+
     def upload_file(self, local_path: Path, remote_dest_path: str) -> bool:
         """Uploads a local file to remote_dest_path (full remote path including filename)."""
         local_path = Path(local_path)
         if not local_path.exists():
             raise FileNotFoundError(f"Local file not found: {local_path}")
 
-        parent_dir = str(Path(remote_dest_path).parent).replace("\\", "/")
+        # Safety: InfinityFree 10 MB limit guard
+        file_size = local_path.stat().st_size
+        if file_size > self.MAX_FILE_SIZE:
+            size_mb = file_size / (1024 * 1024)
+            raise ValueError(
+                f"File '{local_path.name}' ({size_mb:.1f} MB) exceeds InfinityFree's 10 MB FTP limit. "
+                "Upload large APKs to GitHub Releases CDN instead."
+            )
+
+        # Safety: Path traversal protection
+        norm_remote = os.path.normpath(remote_dest_path).replace(chr(92), "/")
+        if ".." in norm_remote.split("/") or norm_remote.startswith("../"):
+            raise ValueError(f"Invalid remote destination path (path traversal detected): {remote_dest_path}")
+
+        parent_dir = str(Path(norm_remote).parent).replace(chr(92), "/")
         self.ensure_dir(parent_dir)
 
         ftp = self._connect()
         try:
             with open(local_path, "rb") as f:
-                ftp.storbinary(f"STOR {remote_dest_path}", f, blocksize=65536)
+                ftp.storbinary(f"STOR {norm_remote}", f, blocksize=65536)
             return True
         finally:
             ftp.quit()
